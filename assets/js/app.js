@@ -61,10 +61,10 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in separate elements
-  document.getElementById("days").innerHTML = days + "d";
-  document.getElementById("hours").innerHTML = hours + "h";
-  document.getElementById("minutes").innerHTML = minutes + "m";
-  document.getElementById("seconds").innerHTML = seconds + "s";
+  document.getElementById("days").innerHTML = days + "<br />" + "<span>DAYS</span>";
+  document.getElementById("hours").innerHTML = hours + "<br />"  + "<span>HOURS</span>";
+  document.getElementById("minutes").innerHTML = minutes + "<br />"  + "<span>MINUTES</span>";
+  document.getElementById("seconds").innerHTML = seconds + "<br />"   + "<span>SECONDS</span>";
     
   // If the countdown is over, write some text 
   if (distance < 0) {
@@ -75,3 +75,33 @@ var x = setInterval(function() {
     document.getElementById("seconds").innerHTML = "";
   }
 }, 1000);
+
+
+// SLIDE GALLERY IMAGE ONE
+
+let slider = document.querySelector("input[type='range']");
+let beforeImage = document.querySelector(".image-before-one");
+let afterImage = document.querySelector(".image-after-one");
+// Removed the beforeSelector and afterSelector as they were not in your HTML
+// let beforeSelector = document.querySelector("#before-selector");
+// let afterSelector = document.querySelector("#after-selector");
+
+let beforeImageWidth = getComputedStyle(beforeImage).width.slice(
+  0,
+  getComputedStyle(beforeImage).width.indexOf("p")
+);
+
+slider.addEventListener("input", (e) => {
+  adjustImage(e.target);
+});
+
+function adjustImage(target) {
+  beforeImage.style.width = `${(target.value / 100) * beforeImageWidth}px`;
+}
+
+// Update image functionality assumed to be here, but selectors are not defined in your HTML
+function updateImage() {
+  // If you add input fields for image upload, use the updated class names.
+}
+
+adjustImage(slider);

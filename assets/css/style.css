@@ -850,11 +850,117 @@ marquee img {
     font-size: 1.8rem;
     font-weight: 700;
     font-family: var(--lato-regular);
-    padding: 0 65px;
+    padding: 0 70px;
     display: flex;
     position: relative;
     align-items: center;
 }
 .panel p {
-    padding: 20px 65px !important;
+    padding: 20px 70px !important;
+}
+.special-offer-sec .special-offer-info .countdown-timer {
+    display: flex;
+    gap: 16px;
+}
+
+.special-offer-sec .special-offer-info .countdown-timer .count-time {
+    padding: 34px;
+    border: 1px solid;
+    font-size: 6.6rem;
+    font-family: var(--lato-regular);
+    line-height: 36px;
+    text-align: center;
+    border-radius: 18px;
+    width: 160px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(190deg, rgba(1,51,102,1) 0%, rgba(255,255,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.special-offer-sec .special-offer-info .countdown-timer .count-time span{
+    font-size: 1.6rem;
+    font-family: var(--lato-regular);
+    padding-top: 20px;
+}
+
+/* SLIDE GALLERY ONE */
+
+.slide-img-one {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .image-container-one {
+    display: flex;
+    margin-top: 10px;
+    height: 700px;
+    width: 1015px;
+    background-color: transparent;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    position: absolute;
+    width: inherit;
+    padding: 0px;
+    margin-top: 360px;
+    z-index: 100;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    margin-top: -10px;
+    background-color: white;
+    cursor: grab;
+    height: 1.1rem;
+    width: 1.1rem;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb:active {
+    background-color: rgb(231, 227, 227);
+    cursor: grabbing;
+  }
+  
+  .image-before-one {
+    position: absolute;
+    padding: 0;
+    margin-left: 8.5px;
+    background-image: url("https://cdn.pixabay.com/photo/2023/08/16/23/47/annas-hummingbird-8195150_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 0px 9px 1px #fffefe11;
+    height: inherit;
+    width: 1000px;
+    z-index: 10;
+    border-right: solid 0.5px rgba(255, 255, 255, 0.425);
+  }
+  
+  .image-after-one {
+    position: absolute;
+    margin-left: 8.5px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/23/18/27/hummingbird-1854225_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+    width: 1000px;
+  }
+
+  
+  .before-after-smile {
+    height: 1000px;
+}
+
+.before-after-smile .image-slides {
+    display: flex;
 }
