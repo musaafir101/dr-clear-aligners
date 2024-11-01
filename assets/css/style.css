@@ -606,7 +606,7 @@ marquee img {
 }
 .footer .container {
     display: flex;
-    gap: 40px;
+    gap: 100px;
 }
 
 .footer .container .footer-column {
@@ -625,4 +625,236 @@ marquee img {
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
+}
+.footer .f-logo .chng-color {
+    background: var(--dark-blue);
+    border-color: var(--dark-blue);
+    padding: 12px 22px;
+
+}
+.footer .footer-column h4 {
+    color: var(--dark-blue);
+    font-size: 22px;
+    font-family: var(--lato-bold);
+}
+.footer .f-logo .chng-color span {
+    font-size: 3.6rem;
+    color: var(--mustard);
+    font-weight: 500;
+    font-family: var(--calorie);
+    line-height: 0;
+    padding: 0px 6px;
+}
+.footer .footer-column ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.footer .footer-column .menus {
+    display: flex;
+    gap: 20px;
+    padding-top: 22px;
+}
+.footer .footer-column .menu li {
+    font-size: 1.8rem;
+    font-family: var(--lato-regular);
+
+}
+.footer .footer-column .email-box {
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.footer .container .footer-column i {
+    color: var(--dark-blue);
+    font-size: 2rem;
+}
+
+.footer .footer-column .email-box a {
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: var(--lato-regular);
+    color: var(--dark-blue);
+}
+.footer .footer-column .logos {
+    display: flex;
+    gap: 20px;
+    padding-top: 18px;
+    flex-wrap: wrap;
+}
+
+.footer .footer-column .logos img {
+    width: 35%;
+}
+
+.footer .footer-column .social-icons {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.footer .footer-column .social-icons i {
+    font-size: 28px;
+}
+.video-testimonial .videos-container {
+    padding-top: 56px;
+    display: flex;
+    gap: 30px;
+}
+.video-testimonial .videos-container-two {
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.video-container {
+    position: relative;
+    height: 412px;
+    padding: 7px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.video {
+    width: 100%;
+    border-radius: 10px;
+    height: 390px;
+    object-fit: cover;
+}
+
+.thumbnail,
+.play-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.thumbnail {
+    object-fit: cover;
+}
+
+.play-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    padding: 16px;
+    z-index: 9999;
+}
+
+.play-button img {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.video-testimonial .logos-flex {
+    display: flex;
+    background: #f9fbff;
+    padding: 20px;
+    margin-top: 56px;
+    border-radius: 26px;
+    gap: 156px;
+    justify-content: flex-end;
+}
+
+.video-testimonial .logos-flex img {
+    width: 100px;
+}
+.accordion {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #fff;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: left;
+    margin-left: 0px;
+    background: var(--dark-blue);
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 26px;
+    order: 1;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .faq-sec .container {
+    display: flex;
+    align-items: center;
+}
+
+.faq-sec .faq-sec-info {
+    width: 50%;
+}
+
+.faq-sec  .faq-sec-accordian {
+    width: 50%;
+}
+.faq-sec .faq-sec-info h2{
+    color: var(--dark-blue);
+    font-weight: 500;
+    width: 60%;
+}
+.faq-sec {
+    padding: 125px 0px;
+}
+
+.accordians-faq .accordian-faq {
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.accordians-faq .accordian-faq .accordion {
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: var(--lato-regular);
+    padding: 0 65px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.panel p {
+    padding: 20px 65px !important;
 }
