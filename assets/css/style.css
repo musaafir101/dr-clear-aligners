@@ -20,7 +20,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5% !important;
 }
 
 body {
@@ -247,6 +247,7 @@ img {
 .before-after-smile h2 {
     text-align: center;
     font-weight: 500;
+    padding-bottom: 50px;
 }
 
 .before-after-smile h2 span {
@@ -891,82 +892,13 @@ marquee img {
     padding-top: 20px;
 }
 
+
+
 /* SLIDE GALLERY ONE */
 
-/* .slide-img-one {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .image-container-one {
-    display: flex;
-    margin-top: 10px;
-    height: 700px;
-    width: 1015px;
-    background-color: transparent;
-  }
-  
-  input[type="range"] {
-    -webkit-appearance: none;
-    appearance: none;
-    background: transparent;
-    position: absolute;
-    width: inherit;
-    padding: 0px;
-    margin-top: 360px;
-    z-index: 100;
-  }
-  
-  input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    border-radius: 50%;
-    margin-top: -10px;
-    background-color: white;
-    cursor: grab;
-    height: 1.1rem;
-    width: 1.1rem;
-  }
-  
-  input[type="range"]::-webkit-slider-thumb:active {
-    background-color: rgb(231, 227, 227);
-    cursor: grabbing;
-  }
-  
-  .image-before-one {
-    position: absolute;
-    padding: 0;
-    margin-left: 8.5px;
-    background-image: url("https://cdn.pixabay.com/photo/2023/08/16/23/47/annas-hummingbird-8195150_1280.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 5px 0px 9px 1px #fffefe11;
-    height: inherit;
-    width: 1000px;
-    z-index: 10;
-    border-right: solid 0.5px rgba(255, 255, 255, 0.425);
-  }
-  
-  .image-after-one {
-    position: absolute;
-    margin-left: 8.5px;
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/23/18/27/hummingbird-1854225_640.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: inherit;
-    width: 1000px;
-  }
-
-  
-  .before-after-smile {
-    height: 1000px;
+section.before-after-smile {
+    padding: 100px 0px;
 }
-
-.before-after-smile .image-slides {
-    display: flex;
-} */
-
 
 
 
@@ -977,7 +909,7 @@ marquee img {
         max-width: 1430px;
     }
     html {
-        font-size: 57%;
+        font-size: 57% !important;
     }
     .banner .container .banner-img img {
         width: 550px;
@@ -1063,7 +995,7 @@ marquee img {
         margin: auto;
     }
     html {
-        font-size: 55%;
+        font-size: 55% !important;
     }
     .banner .container .banner-img img {
         width: 500px;
@@ -1148,7 +1080,7 @@ marquee img {
         max-width: 1180px;
     }
     html {
-        font-size: 48%;
+        font-size: 48% !important;
     }
     .btn-primary {
         padding: 16px 28px;
@@ -1250,7 +1182,7 @@ marquee img {
         max-width: 1100px;
     }
     html {
-        font-size: 46%;
+        font-size: 46% !important;
     }
     .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-img {
         width: 120px;
@@ -1433,7 +1365,7 @@ marquee img {
         width: 20%;
     }
     html {
-        font-size: 42%;
+        font-size: 42% !important;
     }
     .banner .container .banner-img img {
         width: 360px;
@@ -1503,7 +1435,7 @@ marquee img {
 }
 @media screen and (max-width:991px){
     html {
-        font-size: 40%;
+        font-size: 40% !important;
     }
     .proud-sec {
         padding-top: 30px;
@@ -1652,7 +1584,7 @@ marquee img {
         max-width: 700px;
     }
     html {
-        font-size: 38%;
+        font-size: 38% !important;
     }
     .banner .container .banner-img img {
         width: 300px;
@@ -1819,6 +1751,17 @@ marquee img {
     }
 }
 @media screen and (max-width:600px){
+    .image-comparison {
+        max-width: 48.063em;
+        margin-right: auto;
+        margin-left: auto;
+        min-height: 320px;
+        padding: 8px;
+        border: 1px solid #e3e3e3;
+        border-radius: 10px;
+    }
+    
+    
     .container {
         width: 100%;
         max-width: 500px;
