@@ -311,7 +311,7 @@ img {
 section.special-offer-sec {
     padding-bottom: 125px;
 }
-.video-testimonial {
+.video-testimonial, section.before-after-smile {
     padding: 125px 0px;
     background: var(--bg-color);
 }
@@ -942,7 +942,7 @@ section.before-after-smile {
     section.special-offer-sec {
         padding-bottom: 118px;
     }
-    .video-testimonial {
+    .video-testimonial, section.before-after-smile {
         padding: 118px 0px;
     }
     .rounded-box {
@@ -1025,7 +1025,7 @@ section.before-after-smile {
 section.special-offer-sec {
     padding-bottom: 85px;
 }
-.video-testimonial {
+.video-testimonial, section.before-after-smile {
     padding: 85px 0px;
 }
 .video-testimonial .videos-container {
@@ -1113,7 +1113,7 @@ marquee img {
     section.special-offer-sec {
         padding-bottom: 75px;
     }
-    .video-testimonial {
+    .video-testimonial, section.before-after-smile {
         padding: 75px 0px;
     }
     .video-container {
@@ -1304,7 +1304,7 @@ marquee img {
     section.special-offer-sec {
         padding-bottom: 65px;
     }
-    .video-testimonial {
+    .video-testimonial, section.before-after-smile {
         padding: 65px 0px;
     }
     .video-testimonial .videos-container {
@@ -1457,7 +1457,7 @@ marquee img {
     section.special-offer-sec {
         padding-bottom: 55px;
     }
-    .video-testimonial {
+    .video-testimonial, section.before-after-smile {
         padding: 55px 0px;
     }
     .play-button {
@@ -1833,7 +1833,7 @@ marquee img {
     .why-choose-us {
         padding: 45px 0;
     }
-    .video-testimonial {
+    .video-testimonial, section.before-after-smile {
         padding: 35px 0px;
     }
     .video-testimonial .videos-container {
