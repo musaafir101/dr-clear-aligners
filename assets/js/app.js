@@ -1,3 +1,6 @@
+// VIDEO 1 JS
+
+
 const video = document.getElementById("video");
 const thumbnail = document.getElementById("thumbnail");
 const playButton = document.getElementById("play-button");
@@ -15,6 +18,118 @@ video.addEventListener("click", () => {
         video.play();
     } else {
         video.pause();
+    }
+});
+
+// VIDEO 2 JS
+
+const videoTwo = document.getElementById("video-two");
+const thumbnailTwo = document.getElementById("thumbnail-two");
+const playButtonTwo = document.getElementById("play-button-two");
+
+// Thumbnail aur button ko hide karke video play kare
+playButtonTwo.addEventListener("click", () => {
+    thumbnailTwo.style.display = "none";
+    playButtonTwo.style.display = "none";
+    videoTwo.play();
+});
+
+// Video ko bhi click se play/pause karne ki functionality add ki gayi hai
+videoTwo.addEventListener("click", () => {
+    if (videoTwo.paused) {
+        videoTwo.play();
+    } else {
+        videoTwo.pause();
+    }
+});
+
+
+// VIDEO 3 JS
+
+const videoThree = document.getElementById("video-three");
+const thumbnailThree = document.getElementById("thumbnail-three");
+const playButtonThree = document.getElementById("play-button-three");
+
+// Thumbnail aur button ko hide karke video play kare
+playButtonThree.addEventListener("click", () => {
+    thumbnailThree.style.display = "none";
+    playButtonThree.style.display = "none";
+    videoThree.play();
+});
+
+// Video ko bhi click se play/pause karne ki functionality add ki gayi hai
+videoThree.addEventListener("click", () => {
+    if (videoThree.paused) {
+        videoThree.play();
+    } else {
+        videoThree.pause();
+    }
+});
+
+// VIDEO 4 JS
+
+const videoFour = document.getElementById("video-four");
+const thumbnailFour = document.getElementById("thumbnail-four");
+const playButtonFour = document.getElementById("play-button-four");
+
+// Thumbnail aur button ko hide karke video play kare
+playButtonFour.addEventListener("click", () => {
+    thumbnailFour.style.display = "none";
+    playButtonFour.style.display = "none";
+    videoFour.play();
+});
+
+// Video ko bhi click se play/pause karne ki functionality add ki gayi hai
+videoFour.addEventListener("click", () => {
+    if (videoFour.paused) {
+        videoFour.play();
+    } else {
+        videoFour.pause();
+    }
+});
+
+// VIDEO 5 JS
+
+const videoFive = document.getElementById("video-five");
+const thumbnailFive = document.getElementById("thumbnail-five");
+const playButtonFive = document.getElementById("play-button-five");
+
+// Thumbnail aur button ko hide karke video play kare
+playButtonFive.addEventListener("click", () => {
+    thumbnailFive.style.display = "none";
+    playButtonFive.style.display = "none";
+    videoFive.play();
+});
+
+// Video ko bhi click se play/pause karne ki functionality add ki gayi hai
+videoFive.addEventListener("click", () => {
+    if (videoFive.paused) {
+        videoFive.play();
+    } else {
+        videoFive.pause();
+    }
+});
+
+
+// VIDEO 6 JS
+
+const videoSix = document.getElementById("video-six");
+const thumbnailSix = document.getElementById("thumbnail-six");
+const playButtonSix = document.getElementById("play-button-six");
+
+// Thumbnail aur button ko hide karke video play kare
+playButtonSix.addEventListener("click", () => {
+    thumbnailSix.style.display = "none";
+    playButtonSix.style.display = "none";
+    videoSix.play();
+});
+
+// Video ko bhi click se play/pause karne ki functionality add ki gayi hai
+videoSix.addEventListener("click", () => {
+    if (videoSix.paused) {
+        videoSix.play();
+    } else {
+        videoSix.pause();
     }
 });
 

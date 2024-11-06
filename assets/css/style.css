@@ -914,6 +914,14 @@ section.before-after-smile {
 }
 
 
+div#google_translate_element {
+    position: fixed;
+    z-index: 999999;
+    right: 5px;
+    bottom: 15px;
+}
+
+
 
 /************* MAX MEDIA QUERIES *************/
 @media screen and (max-width:1680px){
@@ -2185,9 +2193,3 @@ marquee img {
     
 }
 
-div#google_translate_element {
-    position: fixed;
-    z-index: 999999;
-    right: 5px;
-    bottom: 15px;
-}
