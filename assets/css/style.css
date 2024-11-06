@@ -26,6 +26,18 @@ html {
 body {
     position: relative;
     overflow-x: hidden;
+    top: 0 !important;
+}
+
+iframe#\:2\.container {
+    display: none;
+}
+
+.goog-te-gadget-simple{
+    font-size: 14px !important;
+    padding: 15px !important;
+    border-radius: 30px;
+
 }
 
 :root {
@@ -2174,7 +2186,8 @@ marquee img {
 }
 
 div#google_translate_element {
-    position: absolute;
-    z-index: 999999 ;
-    right: 0;
+    position: fixed;
+    z-index: 999999;
+    right: 5px;
+    bottom: 15px;
 }
