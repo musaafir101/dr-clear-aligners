@@ -1434,6 +1434,7 @@ marquee img {
     
 }
 @media screen and (max-width:991px){
+    
     html {
         font-size: 40% !important;
     }
@@ -2169,4 +2170,9 @@ marquee img {
     }
     
     
+}
+
+div#google_translate_element {
+    position: absolute;
+    z-index: 999999 ;
 }
