@@ -25,6 +25,7 @@ html {
 
 body {
     position: relative;
+    overflow-x: hidden;
 }
 
 :root {
@@ -2175,4 +2176,5 @@ marquee img {
 div#google_translate_element {
     position: absolute;
     z-index: 999999 ;
+    right: 0;
 }
