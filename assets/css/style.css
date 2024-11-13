@@ -1935,6 +1935,9 @@ marquee img {
     
 }
 @media screen and (max-width:540px){
+    .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-info p {
+        font-size: 14px;
+    }
     .container {
         width: 100%;
         max-width: 460px;
