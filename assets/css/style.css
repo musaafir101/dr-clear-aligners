@@ -82,17 +82,19 @@ img {
     font-size: 1.8rem;
     font-family: var(--lato-bold);
     padding: 19px 39px;
-    background: var(--mustard);
+    background: rgb(16,80,144);
+    background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%, rgba(16,80,142,1) 91%);
     color: var(--white);
-    border: 1px solid var(--mustard);
+    border: none;
     border-radius: 30px;
     text-decoration: none;
 }
 
 .btn-primary:hover {
-    background: var(--white);
-    color: var(--mustard);
-    border: 1px solid var(--mustard);
+    background: rgb(16,80,144);
+    background: linear-gradient(130deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%, rgba(16,80,142,1) 91%);
+    color: var(--white);
+    
 }
 
 .chng-font-family {
@@ -323,6 +325,7 @@ img {
 }
 section.special-offer-sec {
     padding-bottom: 125px;
+    padding-top: 125px;
 }
 .video-testimonial, section.before-after-smile {
     padding: 125px 0px;
@@ -642,7 +645,8 @@ marquee img {
     gap: 30px;
 }
 .footer .f-logo .chng-color {
-    background: var(--dark-blue);
+    background: rgb(16,80,144);
+background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%, rgba(16,80,142,1) 91%);
     border-color: var(--dark-blue);
     padding: 12px 22px;
     color: var(--white);
@@ -655,7 +659,7 @@ marquee img {
 }
 .footer .f-logo .chng-color span {
     font-size: 3.6rem;
-    color: var(--mustard);
+    color: var(--white );
     font-weight: 500;
     font-family: var(--calorie);
     line-height: 0;
@@ -946,7 +950,7 @@ div#google_translate_element {
         gap: 65px;
     }
     .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box {
-        padding: 32px;
+        padding: 22px;
         gap: 20px;
     }
     .special-offer-sec .container {
@@ -962,6 +966,7 @@ div#google_translate_element {
     }
     section.special-offer-sec {
         padding-bottom: 118px;
+        padding-top: 118px;
     }
     .video-testimonial, section.before-after-smile {
         padding: 118px 0px;
@@ -1045,6 +1050,7 @@ div#google_translate_element {
 }
 section.special-offer-sec {
     padding-bottom: 85px;
+    padding-top: 85px;
 }
 .video-testimonial, section.before-after-smile {
     padding: 85px 0px;
@@ -1133,6 +1139,7 @@ marquee img {
     }
     section.special-offer-sec {
         padding-bottom: 75px;
+        padding-top: 75px;
     }
     .video-testimonial, section.before-after-smile {
         padding: 75px 0px;
@@ -1324,6 +1331,7 @@ marquee img {
     }
     section.special-offer-sec {
         padding-bottom: 65px;
+        padding-top: 65px;
     }
     .video-testimonial, section.before-after-smile {
         padding: 65px 0px;
@@ -1478,6 +1486,7 @@ marquee img {
     }
     section.special-offer-sec {
         padding-bottom: 55px;
+        padding-top: 55px;
     }
     .video-testimonial, section.before-after-smile {
         padding: 55px 0px;
