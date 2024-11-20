@@ -130,6 +130,18 @@ img {
 .banner .container {
     display: flex;
     align-items: center;
+    position: relative;
+}
+.banner .container::after{
+    content: '';
+    background: url('./../images/line\ 1.png');
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 6%;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    right: -5%;
 }
 
 .banner .container .banner-info {
@@ -238,7 +250,7 @@ img {
     font-size: 2rem;
     font-family: var(--lato-regular);
     color: var(--light-grey);
-    font-weight: 500;
+    font-weight: 400;
     padding-bottom: 16px;
 }
 
@@ -326,6 +338,34 @@ img {
 section.special-offer-sec {
     padding-bottom: 125px;
     padding-top: 125px;
+}
+.countdown-timer {
+    display: flex;
+    gap: 20px;
+}
+.all-faq-ques-ans .faq-ques-ans .faq-ans ul {
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.first-logos img {
+    width: 90px;
+    margin: 0 100px;
+}
+
+.all-faq-ques-ans .faq-ques-ans .faq-ans ul li {
+    font-size: 1.8rem;
+    padding-left: 0px;
+    color: var(--light-grey);
+}
+
+.last-bd-none {
+    border: none !important;
+}
+.contact-form input::placeholder{
+    color: var(--grey);
+}
+.contact-form select{
+    color: var(--grey);
 }
 .video-testimonial, section.before-after-smile {
     padding: 125px 0px;
@@ -503,6 +543,16 @@ section.special-offer-sec {
     gap: 30px;
     padding-top: 56px;
 }
+.logos-imgs {
+    display: flex;
+    gap: 156px;
+}
+.logos-heading h4 {
+    font-size: 3rem;
+    color: var(--light-grey);
+    font-weight: 400;
+    width: 70%;
+}
 
 .testimonials .testimonial {
     background: var(--white);
@@ -537,7 +587,7 @@ section.special-offer-sec {
     width: 50%;
 }
 .proud-sec {
-    padding-top: 56px;
+    padding-top: 86px;
     text-align: center;
 }
 .proud-sec h3 {
@@ -552,6 +602,34 @@ marquee img {
 }
 .logos {
     padding-top: 35px;
+}
+
+.test-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+}
+
+.test-reviews img {
+    width: 280px;
+}
+.button-test {
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-test a {
+    font-size: 1.8rem;
+    font-family: var(--lato-bold);
+    padding: 19px 39px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    background: var(--mustard);
+    color: var(--white);
 }
 .contact-sec {
     padding: 125px 0px;
@@ -737,7 +815,30 @@ background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%
     background: #fff;
     border-radius: 10px;
 }
+.language-btn {
+    position: fixed;
+    display: flex;
+    gap: 10px;
+    right: 2%;
+    bottom: 3%;
+    z-index: 9999;
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    flex-direction: column;
+}
 
+.language-btn a {
+    text-decoration: none;
+    font-size: 16px;
+    background: #fff;
+    padding: 13px 20px;
+    border-radius: 60px;
+    border: 1px solid;
+    color: #fff;
+    background: linear-gradient(130deg, rgba(16, 80, 144, 1) 14%, rgba(99, 155, 215, 1) 48%, rgba(16, 80, 142, 1) 91%);
+    border: none;
+}
 .video {
     width: 100%;
     border-radius: 10px;
@@ -784,105 +885,73 @@ background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%
     padding: 20px;
     margin-top: 56px;
     border-radius: 26px;
-    gap: 156px;
-    justify-content: flex-end;
+    gap: 0;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .video-testimonial .logos-flex img {
     width: 100px;
 }
-.accordion {
-    background-color: #fff;
-    color: #333;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-  }
-  
-  .active, .accordion:hover {
-    background-color: #fff;
-  }
-  
-  .accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: left;
-    margin-left: 0px;
-    background: var(--dark-blue);
-    height: 45px;
-    width: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 26px;
-    order: 1;
-    position: absolute;
-    left: 0;
-    border-radius: 50%;
-  }
-  
-  .active:after {
-    content: "\2212";
-  }
-  
-  .panel {
-    padding: 0;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-  .faq-sec .container {
-    display: flex;
-    align-items: center;
-}
-
-.faq-sec .faq-sec-info {
-    width: 50%;
-}
-
-.faq-sec  .faq-sec-accordian {
-    width: 50%;
-}
-.faq-sec .faq-sec-info h2{
-    color: var(--dark-blue);
-    font-weight: 500;
-    width: 60%;
-}
-.faq-sec {
+/* FAQS SEC */
+.faq-new-sec {
     padding: 125px 0px;
 }
 
-.accordians-faq .accordian-faq {
+.faq-new-sec h2 {
+    color: var(--dark-blue);
+    text-align: center;
+    margin: auto;
+    font-weight: 500;
+}
+
+.all-faq-ques-ans {
+    padding-top: 90px;
+    display: flex;
+    gap: 80px;
+}
+
+.all-faq-ques-ans:nth-child(4){
+    padding-top: 30px;
+}
+.all-faq-ques-ans:nth-child(3){
+    padding-top: 30px;
+}
+.all-faq-ques-ans:nth-child(5){
+    padding-top: 30px;
+}
+.all-faq-ques-ans:nth-child(6){
+    padding-top: 30px;
+}
+.all-faq-ques-ans .faq-ques-ans {
     border-bottom: 1px solid #d6d6d6;
-    padding-bottom: 40px;
-    margin-bottom: 40px;
+    padding-bottom: 47px;
+    width: 50%;
 }
 
-.accordians-faq .accordian-faq .accordion {
-    font-size: 1.8rem;
-    font-weight: 700;
-    font-family: var(--lato-regular);
-    padding: 0 70px;
+.all-faq-ques-ans .faq-ques-ans .faq-ques {
     display: flex;
-    position: relative;
     align-items: center;
-}
-.panel p {
-    padding: 20px 70px !important;
-}
-.special-offer-sec .special-offer-info .countdown-timer {
-    display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
+.all-faq-ques-ans .faq-ques-ans .faq-ques img {
+    width: 35px;
+}
+
+.all-faq-ques-ans .faq-ques-ans .faq-ques p {
+    font-size: 2rem;
+}
+
+.all-faq-ques-ans .faq-ques-ans .faq-ans {
+    padding-top: 14px;
+    width: 82%;
+}
+.all-faq-ques-ans .faq-ques-ans .faq-ans p {
+    font-size: 1.8rem;
+    padding-left: 58px;
+    color: var(--light-grey);
+}
 .special-offer-sec .special-offer-info .countdown-timer .count-time {
     padding: 34px;
     border: 1px solid;
@@ -1386,6 +1455,7 @@ marquee img {
     
 }
 @media screen and (max-width:1024px){
+    
     .container {
         width: 100%;
         max-width: 840px;
@@ -1463,6 +1533,48 @@ marquee img {
     
 }
 @media screen and (max-width:991px){
+    .faq-new-sec {
+        padding: 45px 0px;
+    }
+    .language-btn a {
+        font-size: 14px;
+        padding: 11px 16px;
+    }
+    .button-test {
+        padding: 30px 0px;
+    }
+    .test-reviews {
+        gap: 20px;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .all-faq-ques-ans {
+        padding-top: 40px;
+        display: flex
+    ;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .all-faq-ques-ans .faq-ques-ans .faq-ans {
+        width: 100%;
+    }
+    .all-faq-ques-ans .faq-ques-ans {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    .video-testimonial .logos-flex {
+        flex-direction: column;
+        gap: 20px !important;
+    }
+    .logos-imgs {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .test-reviews img {
+        width: 130px;
+    }
     
     html {
         font-size: 40% !important;
@@ -1503,7 +1615,22 @@ marquee img {
         gap: 66px;
     }
     .video-testimonial .logos-flex img {
+        width: 60px;
+    }
+    .banner .container::after {
+        width: 50px;
+        height: 50px;
+        bottom: 2%;
+        background-size: 50px;
+        right: 0%;
+    }
+    .first-logos img {
         width: 70px;
+        margin: 0 40px;
+    }
+    .logos-heading h4 {
+        width: 100%;
+        text-align: center;
     }
     .how-it-work {
         padding: 55px 0px;

@@ -2,768 +2,818 @@
 <html lang="en">
 
 <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Dr Clear</title>
-        <!-- CSS LINKS -->
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <link rel="stylesheet" href="assets/css/before-after.css">
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css&quot; rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-        <!-- FONT AWESOME LINKS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-        <link rel="icon" type="./assets/images/fav.png" href="./assets/images/fav.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr Clear</title>
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/before-after.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css&quot; rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!-- FONT AWESOME LINKS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="icon" type="./assets/images/fav.png" href="./assets/images/fav.png">
 </head>
 
 <body>
 
-        <!-- Google Translate Widget -->
-        <div id="google_translate_element"></div>
-        <section class="header">
-                <div class="container">
-                        <div class="logo">
-                                <img src="./assets/images/dr-logo.png" alt="" />
+    <!-- Google Translate Widget -->
+    <!-- BUTTON CHNGE TO LANGUAGE -->
+    <div class="language-btn">
+        <a href="index-en.html">ENG</a>
+        <a href="index.html">THAI</a>
+     </div>
+    <section class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/images/dr-logo.png" alt="" />
+            </div>
+            <div class="cta">
+                <a href="#contact" class="btn-primary">ปรึกษาและประเมินฟันฟรี</a>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="container">
+            <div class="banner-info">
+                <h1>
+                    คลินิกจัดฟันใส เฉพาะทาง โดยทันตแพทย์ผู้ชำนาญการ 
+                    เห็นผลลัพธ์อย่างมีประสิทธิภาพ และ รวดเร็ว
+                </h1>
+                <p class="banner-txt">
+                    ปรึกษาและประเมินปัญหาฟันกับผู้เชี่ยวชาญฟรี!! 
+                </p>
+                <a href="#contact" class="btn-primary">ปรึกษาและประเมินฟันฟรี</a>
+                <ul>
+                    <li>
+                        ภาพพรีเซ็นเตอร์
+                    </li>
+                </ul>
+            </div>
+            <div class="banner-img">
+                <img src="./assets/images/banner-new-lady.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class="proud-sec">
+        <div class="container">
+            <h3>ได้รับการรับรองจาก</h3>
+            <div class="logos first-logos">
+                <marquee behavior="alternate" onMouseOver="this.stop()" onMouseOut="this.start()">
+                    <img src="./assets/images/bpa.png" alt="" />
+                    <img src="./assets/images/ce.png" alt="" />
+                    <img src="./assets/images/fda.png" alt="" />
+                    <img src="./assets/images/iso.png" alt="" />
+                    <img src="./assets/images/bpa.png" alt="" />
+                    <img src="./assets/images/ce.png" alt="" />
+                    <img src="./assets/images/fda.png" alt="" />
+                    <img src="./assets/images/iso.png" alt="" />
+                    <img src="./assets/images/bpa.png" alt="" />
+                    <img src="./assets/images/ce.png" alt="" />
+                    <img src="./assets/images/fda.png" alt="" />
+                    <img src="./assets/images/iso.png" alt="" />
+                </marquee>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="why-choose-us-img">
+                <img src="./assets/images/about-new-info.png" alt="" />
+            </div>
+            <div class="why-choose-us-info">
+                <h2>
+                    ทำไมถึงเลือก <br />
+                    Dr. Clear Aligners
+                </h2>
+                <div class="why-choose-us-info-boxes">
+                    <div class="why-choose-us-info-box box-1">
+                        <div class="why-choose-us-info-box-img">
+                            <img src="./assets/images/watch-icon.png" alt="" />
                         </div>
-                        <div class="cta">
-                                <a href="#contact" class="btn-primary">Claim Your Free Consultation Now</a>
+                        <div class="why-choose-us-info-box-info">
+                            <h4>ความรวดเร็ว</h4>
+                            <p>เห็นผลลัพธ์รวดเร็ว
+                                กว่าการจัดฟันแบบเหล็ก</p>
                         </div>
+                    </div>
+                    <div class="why-choose-us-info-box box-2">
+                        <div class="why-choose-us-info-box-img">
+                            <img src="./assets/images/hand-icon.png" alt="" />
+                        </div>
+                        <div class="why-choose-us-info-box-info">
+                            <h4>ความสะดวกสบาย</h4>
+                            <p>
+                                เครื่องมือจัดฟันใส่สบาย
+                                นัดพบทันตแพทย์น้อยกว่าการจัดฟันแบบเหล็ก
+                            </p>
+                        </div>
+                    </div>
                 </div>
-        </section>
-        <section class="banner">
-                <div class="container">
-                        <div class="banner-info">
-                                <h1>
-                                        Achieve Your Perfect
-                                        <span class="chng-font-family chng-font-size">Smile</span> with Dr.
-                                        Clear Aligners – Fast, Convenient, and Personalized
-                                </h1>
-                                <p class="banner-txt">
-                                        Limited Time Offer: Free Consultation (Worth $80) and $100 Off
-                                        Treatment – Total Savings of $180
-                                </p>
-                                <a href="#contact" class="btn-primary">Claim Your Free Consultation Now</a>
-                                <ul>
-                                        <li>
-                                                Hurry! Offer ends in 14 days and is limited to the first 30
-                                                sign-ups
-                                        </li>
-                                </ul>
+                <div class="why-choose-us-info-boxes after-boxes">
+                    <div class="why-choose-us-info-box box-3">
+                        <div class="why-choose-us-info-box-img">
+                            <img src="./assets/images/dollar-icon.png" alt="" />
                         </div>
-                        <div class="banner-img">
-                                <img src="./assets/images/banner-lady.png" alt="" />
+                        <div class="why-choose-us-info-box-info">
+                            <h4>ความคุ้มค่า</h4>
+                            <p>ราคาประหยัดกว่าทางเลือกจัดฟัน
+                                รูปแบบอื่น ๆ</p>
                         </div>
+                    </div>
+                    <div class="why-choose-us-info-box box-4">
+                        <div class="why-choose-us-info-box-img">
+                            <img src="./assets/images/admin-icon.png" alt="" />
+                        </div>
+                        <div class="why-choose-us-info-box-info">
+                            <h4>การบริการแบบ
+                                เฉพาะบุคคล</h4>
+                            <p>
+                                แผนการรักษาที่ออกแบบเฉพาะบุคคล 
+                                พร้อมการดูแลอย่างใส่ใจในทุกขั้นตอน
+                            </p>
+                        </div>
+                    </div>
                 </div>
-        </section>
+            </div>
+        </div>
+    </section>
 
-        <section class="proud-sec">
-                <div class="container">
-                        <h3>AS SEEN IN</h3>
-                        <div class="logos">
-                                <marquee behavior="alternate" onMouseOver="this.stop()" onMouseOut="this.start()">
-                                        <img src="./assets/images/logo-1.png" alt="" />
-                                        <img src="./assets/images/logo-2.png" alt="" />
-                                        <img src="./assets/images/logo-3.png" alt="" />
-                                        <img src="./assets/images/logo-4.png" alt="" />
-                                        <img src="./assets/images/logo-1.png" alt="" />
-                                        <img src="./assets/images/logo-2.png" alt="" />
-                                        <img src="./assets/images/logo-3.png" alt="" />
-                                        <img src="./assets/images/logo-4.png" alt="" />
-                                        <img src="./assets/images/logo-1.png" alt="" />
-                                        <img src="./assets/images/logo-2.png" alt="" />
-                                        <img src="./assets/images/logo-3.png" alt="" />
-                                        <img src="./assets/images/logo-4.png" alt="" />
-                                </marquee>
+    <section class="before-after-smile">
+        <div class="container">
+            <h2>
+                Before & After
+                <span class="chng-font-family chng-font-size">Smile</span>
+            </h2>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <section class="image-comparison" data-component="image-comparison-slider">
+                        <div class="image-comparison__slider-wrapper">
+                            <label for="image-comparison-range" class="image-comparison__label">Move image comparison
+                                slider</label>
+                            <input type="range" min="0" max="100" value="50" class="image-comparison__range"
+                                id="image-compare-range" data-image-comparison-range="">
+
+                            <div class="image-comparison__image-wrapper     image-comparison__image-wrapper--overlay"
+                                data-image-comparison-overlay="">
+                                <figure class="image-comparison__figure image-comparison__figure--overlay">
+                                    <picture class="image-comparison__picture">
+                                        <source media="(max-width: 40em)" srcset="./assets/images/before-teeth.jpg">
+                                        <source media="(min-width: 40.0625em) and (max-width: 48em)"
+                                            srcset="./assets/images/before-teeth.jpg">
+                                        <img src="./assets/images/before-teeth.jpg" alt="Mojave desert in the sun"
+                                            class="image-comparison__image">
+                                    </picture>
+
+
+                                </figure>
+                            </div>
+
+                            <div class="image-comparison__slider" data-image-comparison-slider="">
+                                <span class="image-comparison__thumb" data-image-comparison-thumb="">
+                                    <svg class="image-comparison__thumb-icon"
+                                        xmlns="http://www.w3.org/2000/svg&quot; width=" 18" height="10"
+                                        viewBox="0 0 18 10" fill="currentColor">
+                                        <path class="image-comparison__thumb-icon--left"
+                                            d="M12.121 4.703V.488c0-.302.384-.454.609-.24l4.42 4.214a.33.33 0 0 1 0 .481l-4.42 4.214c-.225.215-.609.063-.609-.24V4.703z">
+                                        </path>
+                                        <path class="image-comparison__thumb-icon--right"
+                                            d="M5.879 4.703V.488c0-.302-.384-.454-.609-.24L.85 4.462a.33.33 0 0 0 0 .481l4.42 4.214c.225.215.609.063.609-.24V4.703z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+
+                            <div class="image-comparison__image-wrapper">
+                                <figure class="image-comparison__figure">
+                                    <picture class="image-comparison__picture">
+                                        <source media="(max-width: 40em)" srcset="./assets/images/after-teeth.jpg">
+                                        <source media="(min-width: 40.0625em) and (max-width: 48em)"
+                                            srcset="./assets/images/after-teeth.jpg">
+                                        <img src="./assets/images/after-teeth.jpg" alt="Mojave desert in the dark"
+                                            class="image-comparison__image">
+                                    </picture>
+
+
+                                </figure>
+                            </div>
                         </div>
+                    </section>
                 </div>
-        </section>
+                <div class="col-12 col-md-4">
+                    <section class="image-comparison" data-component="image-comparison-slider">
+                        <div class="image-comparison__slider-wrapper">
+                            <label for="image-comparison-range" class="image-comparison__label">Move image comparison
+                                slider</label>
+                            <input type="range" min="0" max="100" value="50" class="image-comparison__range"
+                                id="image-compare-range" data-image-comparison-range="">
 
-        <section class="why-choose-us">
-                <div class="container">
-                        <div class="why-choose-us-img">
-                                <img src="./assets/images/about-info.png" alt="" />
+                            <div class="image-comparison__image-wrapper     image-comparison__image-wrapper--overlay"
+                                data-image-comparison-overlay="">
+                                <figure class="image-comparison__figure image-comparison__figure--overlay">
+                                    <picture class="image-comparison__picture">
+                                        <source media="(max-width: 40em)" srcset="./assets/images/teeth-before-1.jpg">
+                                        <source media="(min-width: 40.0625em) and (max-width: 48em)"
+                                            srcset="./assets/images/teeth-before-1.jpg">
+                                        <img src="./assets/images/teeth-before-1.jpg" alt="Mojave desert in the sun"
+                                            class="image-comparison__image">
+                                    </picture>
+
+
+                                </figure>
+                            </div>
+
+                            <div class="image-comparison__slider" data-image-comparison-slider="">
+                                <span class="image-comparison__thumb" data-image-comparison-thumb="">
+                                    <svg class="image-comparison__thumb-icon"
+                                        xmlns="http://www.w3.org/2000/svg&quot; width=" 18" height="10"
+                                        viewBox="0 0 18 10" fill="currentColor">
+                                        <path class="image-comparison__thumb-icon--left"
+                                            d="M12.121 4.703V.488c0-.302.384-.454.609-.24l4.42 4.214a.33.33 0 0 1 0 .481l-4.42 4.214c-.225.215-.609.063-.609-.24V4.703z">
+                                        </path>
+                                        <path class="image-comparison__thumb-icon--right"
+                                            d="M5.879 4.703V.488c0-.302-.384-.454-.609-.24L.85 4.462a.33.33 0 0 0 0 .481l4.42 4.214c.225.215.609.063.609-.24V4.703z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+
+                            <div class="image-comparison__image-wrapper">
+                                <figure class="image-comparison__figure">
+                                    <picture class="image-comparison__picture">
+                                        <source media="(max-width: 40em)" srcset="./assets/images/teeth-after-1.jpg">
+                                        <source media="(min-width: 40.0625em) and (max-width: 48em)"
+                                            srcset="./assets/images/teeth-after-1.jpg">
+                                        <img src="./assets/images/teeth-after-1.jpg" alt="Mojave desert in the dark"
+                                            class="image-comparison__image">
+                                    </picture>
+
+
+                                </figure>
+                            </div>
                         </div>
-                        <div class="why-choose-us-info">
-                                <h2>
-                                        Why Choose<br />
-                                        Dr. Clear Aligners
-                                </h2>
-                                <div class="why-choose-us-info-boxes">
-                                        <div class="why-choose-us-info-box box-1">
-                                                <div class="why-choose-us-info-box-img">
-                                                        <img src="./assets/images/watch-icon.png" alt="" />
-                                                </div>
-                                                <div class="why-choose-us-info-box-info">
-                                                        <h4>Speed</h4>
-                                                        <p>Fast results in less time compared to traditional braces.</p>
-                                                </div>
-                                        </div>
-                                        <div class="why-choose-us-info-box box-2">
-                                                <div class="why-choose-us-info-box-img">
-                                                        <img src="./assets/images/hand-icon.png" alt="" />
-                                                </div>
-                                                <div class="why-choose-us-info-box-info">
-                                                        <h4>Convenience</h4>
-                                                        <p>
-                                                                Aligners that fit into your lifestyle with fewer dental
-                                                                visits.
-                                                        </p>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="why-choose-us-info-boxes after-boxes">
-                                        <div class="why-choose-us-info-box box-3">
-                                                <div class="why-choose-us-info-box-img">
-                                                        <img src="./assets/images/dollar-icon.png" alt="" />
-                                                </div>
-                                                <div class="why-choose-us-info-box-info">
-                                                        <h4>Affordability</h4>
-                                                        <p>More affordable than alternatives like Invisalign.</p>
-                                                </div>
-                                        </div>
-                                        <div class="why-choose-us-info-box box-4">
-                                                <div class="why-choose-us-info-box-img">
-                                                        <img src="./assets/images/admin-icon.png" alt="" />
-                                                </div>
-                                                <div class="why-choose-us-info-box-info">
-                                                        <h4>Personalized Service</h4>
-                                                        <p>
-                                                                Tailored treatment plans and personalized support at
-                                                                every
-                                                                step.
-                                                        </p>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
+                    </section>
                 </div>
-        </section>
+                <div class="col-12 col-md-4">
+                    <section class="image-comparison" data-component="image-comparison-slider">
+                        <div class="image-comparison__slider-wrapper">
+                            <label for="image-comparison-range" class="image-comparison__label">Move image comparison
+                                slider</label>
+                            <input type="range" min="0" max="100" value="50" class="image-comparison__range"
+                                id="image-compare-range" data-image-comparison-range="">
 
-        <section class="before-after-smile">
-                <div class="container">
-                        <h2>
-                                Before & After
-                                <span class="chng-font-family chng-font-size">Smile</span>
-                        </h2>
-                        <div class="row">
-                                <div class="col-12 col-md-4">
-                                        <section class="image-comparison" data-component="image-comparison-slider">
-                                                <div class="image-comparison__slider-wrapper">
-                                                        <label for="image-comparison-range"
-                                                                class="image-comparison__label">Move image comparison
-                                                                slider</label>
-                                                        <input type="range" min="0" max="100" value="50"
-                                                                class="image-comparison__range" id="image-compare-range"
-                                                                data-image-comparison-range="">
-
-                                                        <div class="image-comparison__image-wrapper     image-comparison__image-wrapper--overlay"
-                                                                data-image-comparison-overlay="">
-                                                                <figure
-                                                                        class="image-comparison__figure image-comparison__figure--overlay">
-                                                                        <picture class="image-comparison__picture">
-                                                                                <source media="(max-width: 40em)"
-                                                                                        srcset="./assets/images/before-teeth.jpg">
-                                                                                <source media="(min-width: 40.0625em) and (max-width: 48em)"
-                                                                                        srcset="./assets/images/before-teeth.jpg">
-                                                                                <img src="./assets/images/before-teeth.jpg"
-                                                                                        alt="Mojave desert in the sun"
-                                                                                        class="image-comparison__image">
-                                                                        </picture>
+                            <div class="image-comparison__image-wrapper     image-comparison__image-wrapper--overlay"
+                                data-image-comparison-overlay="">
+                                <figure class="image-comparison__figure image-comparison__figure--overlay">
+                                    <picture class="image-comparison__picture">
+                                        <source media="(max-width: 40em)" srcset="./assets/images/teeth-before-2.jpg">
+                                        <source media="(min-width: 40.0625em) and (max-width: 48em)"
+                                            srcset="./assets/images/teeth-before-2.jpg">
+                                        <img src="./assets/images/teeth-before-2.jpg" alt="Mojave desert in the sun"
+                                            class="image-comparison__image">
+                                    </picture>
 
 
-                                                                </figure>
-                                                        </div>
+                                </figure>
+                            </div>
 
-                                                        <div class="image-comparison__slider"
-                                                                data-image-comparison-slider="">
-                                                                <span class="image-comparison__thumb"
-                                                                        data-image-comparison-thumb="">
-                                                                        <svg class="image-comparison__thumb-icon"
-                                                                                xmlns="http://www.w3.org/2000/svg&quot; width="
-                                                                                18" height="10" viewBox="0 0 18 10"
-                                                                                fill="currentColor">
-                                                                                <path class="image-comparison__thumb-icon--left"
-                                                                                        d="M12.121 4.703V.488c0-.302.384-.454.609-.24l4.42 4.214a.33.33 0 0 1 0 .481l-4.42 4.214c-.225.215-.609.063-.609-.24V4.703z">
-                                                                                </path>
-                                                                                <path class="image-comparison__thumb-icon--right"
-                                                                                        d="M5.879 4.703V.488c0-.302-.384-.454-.609-.24L.85 4.462a.33.33 0 0 0 0 .481l4.42 4.214c.225.215.609.063.609-.24V4.703z">
-                                                                                </path>
-                                                                        </svg>
-                                                                </span>
-                                                        </div>
+                            <div class="image-comparison__slider" data-image-comparison-slider="">
+                                <span class="image-comparison__thumb" data-image-comparison-thumb="">
+                                    <svg class="image-comparison__thumb-icon"
+                                        xmlns="http://www.w3.org/2000/svg&quot; width=" 18" height="10"
+                                        viewBox="0 0 18 10" fill="currentColor">
+                                        <path class="image-comparison__thumb-icon--left"
+                                            d="M12.121 4.703V.488c0-.302.384-.454.609-.24l4.42 4.214a.33.33 0 0 1 0 .481l-4.42 4.214c-.225.215-.609.063-.609-.24V4.703z">
+                                        </path>
+                                        <path class="image-comparison__thumb-icon--right"
+                                            d="M5.879 4.703V.488c0-.302-.384-.454-.609-.24L.85 4.462a.33.33 0 0 0 0 .481l4.42 4.214c.225.215.609.063.609-.24V4.703z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
 
-                                                        <div class="image-comparison__image-wrapper">
-                                                                <figure class="image-comparison__figure">
-                                                                        <picture class="image-comparison__picture">
-                                                                                <source media="(max-width: 40em)"
-                                                                                        srcset="./assets/images/after-teeth.jpg">
-                                                                                <source media="(min-width: 40.0625em) and (max-width: 48em)"
-                                                                                        srcset="./assets/images/after-teeth.jpg">
-                                                                                <img src="./assets/images/after-teeth.jpg"
-                                                                                        alt="Mojave desert in the dark"
-                                                                                        class="image-comparison__image">
-                                                                        </picture>
+                            <div class="image-comparison__image-wrapper">
+                                <figure class="image-comparison__figure">
+                                    <picture class="image-comparison__picture">
+                                        <source media="(max-width: 40em)" srcset="./assets/images/teeth-after-2.jpg">
+                                        <source media="(min-width: 40.0625em) and (max-width: 48em)"
+                                            srcset="./assets/images/teeth-after-2.jpg">
+                                        <img src="./assets/images/teeth-after-2.jpg" alt="Mojave desert in the dark"
+                                            class="image-comparison__image">
+                                    </picture>
 
 
-                                                                </figure>
-                                                        </div>
-                                                </div>
-                                        </section>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                        <section class="image-comparison" data-component="image-comparison-slider">
-                                                <div class="image-comparison__slider-wrapper">
-                                                        <label for="image-comparison-range"
-                                                                class="image-comparison__label">Move image comparison
-                                                                slider</label>
-                                                        <input type="range" min="0" max="100" value="50"
-                                                                class="image-comparison__range" id="image-compare-range"
-                                                                data-image-comparison-range="">
-
-                                                        <div class="image-comparison__image-wrapper     image-comparison__image-wrapper--overlay"
-                                                                data-image-comparison-overlay="">
-                                                                <figure
-                                                                        class="image-comparison__figure image-comparison__figure--overlay">
-                                                                        <picture class="image-comparison__picture">
-                                                                                <source media="(max-width: 40em)"
-                                                                                        srcset="./assets/images/teeth-before-1.jpg">
-                                                                                <source media="(min-width: 40.0625em) and (max-width: 48em)"
-                                                                                        srcset="./assets/images/teeth-before-1.jpg">
-                                                                                <img src="./assets/images/teeth-before-1.jpg"
-                                                                                        alt="Mojave desert in the sun"
-                                                                                        class="image-comparison__image">
-                                                                        </picture>
-
-
-                                                                </figure>
-                                                        </div>
-
-                                                        <div class="image-comparison__slider"
-                                                                data-image-comparison-slider="">
-                                                                <span class="image-comparison__thumb"
-                                                                        data-image-comparison-thumb="">
-                                                                        <svg class="image-comparison__thumb-icon"
-                                                                                xmlns="http://www.w3.org/2000/svg&quot; width="
-                                                                                18" height="10" viewBox="0 0 18 10"
-                                                                                fill="currentColor">
-                                                                                <path class="image-comparison__thumb-icon--left"
-                                                                                        d="M12.121 4.703V.488c0-.302.384-.454.609-.24l4.42 4.214a.33.33 0 0 1 0 .481l-4.42 4.214c-.225.215-.609.063-.609-.24V4.703z">
-                                                                                </path>
-                                                                                <path class="image-comparison__thumb-icon--right"
-                                                                                        d="M5.879 4.703V.488c0-.302-.384-.454-.609-.24L.85 4.462a.33.33 0 0 0 0 .481l4.42 4.214c.225.215.609.063.609-.24V4.703z">
-                                                                                </path>
-                                                                        </svg>
-                                                                </span>
-                                                        </div>
-
-                                                        <div class="image-comparison__image-wrapper">
-                                                                <figure class="image-comparison__figure">
-                                                                        <picture class="image-comparison__picture">
-                                                                                <source media="(max-width: 40em)"
-                                                                                        srcset="./assets/images/teeth-after-1.jpg">
-                                                                                <source media="(min-width: 40.0625em) and (max-width: 48em)"
-                                                                                        srcset="./assets/images/teeth-after-1.jpg">
-                                                                                <img src="./assets/images/teeth-after-1.jpg"
-                                                                                        alt="Mojave desert in the dark"
-                                                                                        class="image-comparison__image">
-                                                                        </picture>
-
-
-                                                                </figure>
-                                                        </div>
-                                                </div>
-                                        </section>
-                                </div>
-                                <div class="col-12 col-md-4">
-                                        <section class="image-comparison" data-component="image-comparison-slider">
-                                                <div class="image-comparison__slider-wrapper">
-                                                        <label for="image-comparison-range"
-                                                                class="image-comparison__label">Move image comparison
-                                                                slider</label>
-                                                        <input type="range" min="0" max="100" value="50"
-                                                                class="image-comparison__range" id="image-compare-range"
-                                                                data-image-comparison-range="">
-
-                                                        <div class="image-comparison__image-wrapper     image-comparison__image-wrapper--overlay"
-                                                                data-image-comparison-overlay="">
-                                                                <figure
-                                                                        class="image-comparison__figure image-comparison__figure--overlay">
-                                                                        <picture class="image-comparison__picture">
-                                                                                <source media="(max-width: 40em)"
-                                                                                        srcset="./assets/images/teeth-before-2.jpg">
-                                                                                <source media="(min-width: 40.0625em) and (max-width: 48em)"
-                                                                                        srcset="./assets/images/teeth-before-2.jpg">
-                                                                                <img src="./assets/images/teeth-before-2.jpg"
-                                                                                        alt="Mojave desert in the sun"
-                                                                                        class="image-comparison__image">
-                                                                        </picture>
-
-
-                                                                </figure>
-                                                        </div>
-
-                                                        <div class="image-comparison__slider"
-                                                                data-image-comparison-slider="">
-                                                                <span class="image-comparison__thumb"
-                                                                        data-image-comparison-thumb="">
-                                                                        <svg class="image-comparison__thumb-icon"
-                                                                                xmlns="http://www.w3.org/2000/svg&quot; width="
-                                                                                18" height="10" viewBox="0 0 18 10"
-                                                                                fill="currentColor">
-                                                                                <path class="image-comparison__thumb-icon--left"
-                                                                                        d="M12.121 4.703V.488c0-.302.384-.454.609-.24l4.42 4.214a.33.33 0 0 1 0 .481l-4.42 4.214c-.225.215-.609.063-.609-.24V4.703z">
-                                                                                </path>
-                                                                                <path class="image-comparison__thumb-icon--right"
-                                                                                        d="M5.879 4.703V.488c0-.302-.384-.454-.609-.24L.85 4.462a.33.33 0 0 0 0 .481l4.42 4.214c.225.215.609.063.609-.24V4.703z">
-                                                                                </path>
-                                                                        </svg>
-                                                                </span>
-                                                        </div>
-
-                                                        <div class="image-comparison__image-wrapper">
-                                                                <figure class="image-comparison__figure">
-                                                                        <picture class="image-comparison__picture">
-                                                                                <source media="(max-width: 40em)"
-                                                                                        srcset="./assets/images/teeth-after-2.jpg">
-                                                                                <source media="(min-width: 40.0625em) and (max-width: 48em)"
-                                                                                        srcset="./assets/images/teeth-after-2.jpg">
-                                                                                <img src="./assets/images/teeth-after-2.jpg"
-                                                                                        alt="Mojave desert in the dark"
-                                                                                        class="image-comparison__image">
-                                                                        </picture>
-
-
-                                                                </figure>
-                                                        </div>
-                                                </div>
-                                        </section>
-                                </div>
+                                </figure>
+                            </div>
                         </div>
+                    </section>
                 </div>
-        </section>
+            </div>
+        </div>
+    </section>
 
-        <section class="special-offer-sec">
-                <div class="container">
-                        <div class="special-offer-info">
-                                <h2>
-                                        Special Offer: Get Started with a Free Consultation + $100 Off Your
-                                        Treatment
-                                </h2>
+    <section class="special-offer-sec">
+        <div class="container">
+            <div class="special-offer-info">
+                <h2>
+                    ข้อเสนอพิเศษ:
+                    ปรึกษาปัญหาสุขภาพฟันฟรี!
+                    สำหรับแผนการรักษาของคุณ
+                </h2>
 
-                                <div class="list">
-                                        <h5>For a limited time, we're offering:</h5>
-                                        <ul>
-                                                <li>Free consultation (worth $80)</li>
-                                                <li>$100 off your treatment plan</li>
-                                                <li>
-                                                        Plus, a personalized treatment plan to help you achieve the
-                                                        smile you’ve always wanted
-                                                </li>
-                                        </ul>
-                                </div>
-                                <a href="#contact" class="btn-primary">Claim My Free Consultation</a>
-
-                                <div class="countdown-timer">
-                                        <div id="days" class="count-time"></div>
-                                        <div id="hours" class="count-time"></div>
-                                        <div id="minutes" class="count-time"></div>
-                                        <div id="seconds" class="count-time"></div>
-                                </div>
-                        </div>
-                        <div class="special-offer-img">
-                                <img src="./assets/images/special-img.png" alt="" />
-                        </div>
+                <div class="list">
+                    <h5>ในช่วงเวลาโปรโมชั่น! เราขอเสนอ:</h5>
+                    <ul>
+                        <li>เริ่มปรึกษาและประเมินปัญหาฟันฟรี</li>
+                        <li>สามารถทำรายการผ่อนชำระ 0% ได้ทุกธนาคาร</li>
+                        <li>
+                            นอกจากนี้ยังมีแผนการรักษาที่ปรับให้เหมาะสมกับคุณเพื่อช่วยให้คุณได้รอยยิ้มในฝันที่ต้องการ
+                        </li>
+                    </ul>
                 </div>
-        </section>
+                <a href="#contact" class="btn-primary">ปรึกษาและประเมินฟันฟรี</a>
 
-        <section class="video-testimonial">
-                <div class="container">
-                        <h2>Video Testimonials</h2>
-                        <div class="videos-container">
-                                <div class="video-container">
-                                        <video id="video" class="video">
-                                                <source src="./assets/images/sample.mp4" type="video/mp4" />
-                                                Your browser does not support the video tag.
-                                        </video>
-                                        <img src="assets/images/video-1.png" alt="Thumbnail" class="thumbnail"
-                                                id="thumbnail" />
-                                        <button class="play-button" id="play-button">
-                                                <img src="assets/images/video-btn.png" alt="icon" />
-                                        </button>
-                                </div>
-                                <div class="video-container">
-                                        <video id="video-two" class="video">
-                                                <source src="./assets/images/sample.mp4" type="video/mp4" />
-                                                Your browser does not support the video tag.
-                                        </video>
-                                        <img src="assets/images/video-2.png" alt="Thumbnail" class="thumbnail"
-                                                id="thumbnail-two" />
-                                        <button class="play-button" id="play-button-two">
-                                                <img src="assets/images/video-btn.png" alt="icon" />
-                                        </button>
-
-                                </div>
-                                <div class="video-container">
-                                        <video id="video-three" class="video">
-                                                <source src="./assets/images/sample.mp4" type="video/mp4" />
-                                                Your browser does not support the video tag.
-                                        </video>
-                                        <img src="assets/images/video-3.png" alt="Thumbnail" class="thumbnail"
-                                                id="thumbnail-three" />
-                                        <button class="play-button" id="play-button-three">
-                                                <img src="assets/images/video-btn.png" alt="icon" />
-                                        </button>
-                                </div>
-                        </div>
-                        <div class="videos-container-two">
-                                <div class="video-container">
-                                        <video id="video-four" class="video">
-                                                <source src="./assets/images/sample.mp4" type="video/mp4" />
-                                                Your browser does not support the video tag.
-                                        </video>
-                                        <img src="assets/images/video-4.png" alt="Thumbnail" class="thumbnail"
-                                                id="thumbnail-four" />
-                                        <button class="play-button" id="play-button-four">
-                                                <img src="assets/images/video-btn.png" alt="icon" />
-                                        </button>
-                                </div>
-                                <div class="video-container">
-                                        <video id="video-five" class="video">
-                                                <source src="./assets/images/sample.mp4" type="video/mp4" />
-                                                Your browser does not support the video tag.
-                                        </video>
-                                        <img src="assets/images/video-5.png" alt="Thumbnail" class="thumbnail"
-                                                id="thumbnail-five" />
-                                        <button class="play-button" id="play-button-five">
-                                                <img src="assets/images/video-btn.png" alt="icon" />
-                                        </button>
-                                </div>
-                                <div class="video-container">
-                                        <video id="video-six" class="video">
-                                                <source src="./assets/images/sample.mp4" type="video/mp4" />
-                                                Your browser does not support the video tag.
-                                        </video>
-                                        <img src="assets/images/video-6.png" alt="Thumbnail" class="thumbnail"
-                                                id="thumbnail-six" />
-                                        <button class="play-button" id="play-button-six">
-                                                <img src="assets/images/video-btn.png" alt="icon" />
-                                        </button>
-                                </div>
-                        </div>
-
-                        <div class="logos-flex">
-                                <img src="./assets/images/med-cer-1.png" alt="" />
-                                <img src="./assets/images/med-cer-2.png" alt="" />
-                                <img src="./assets/images/med-cer-3.png" alt="" />
-                                <img src="./assets/images/med-cer-4.png" alt="" />
-                        </div>
+                <div class="countdown-timer">
+                    <div id="days" class="count-time"></div>
+                    <div id="hours" class="count-time"></div>
+                    <div id="minutes" class="count-time"></div>
+                    <div id="seconds" class="count-time"></div>
                 </div>
-        </section>
+            </div>
+            <div class="special-offer-img">
+                <img src="./assets/images/special-new-img.png" alt="" />
+            </div>
+        </div>
+    </section>
 
-        <section class="how-it-work">
-                <div class="container">
-                        <h2>
-                                How It Works – Simple Steps to a Perfect
-                                <span class="chng-font-family chng-font-size">Smile</span>
-                        </h2>
-                        <div class="rounded-boxes">
-                                <div class="box-one">
-                                        <div class="rounded-box">
-                                                <div class="rounded-box-num">
-                                                        <p>1</p>
-                                                </div>
-                                                <div class="rounded-box-img">
-                                                        <img src="./assets/images/msg.png" alt="" />
-                                                </div>
-                                                <div class="rounded-box-info">
-                                                        <h4>Book your free consultation</h4>
-                                                        <p>Discuss your dental concerns and goals.</p>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="box-two">
-                                        <div class="rounded-box">
-                                                <div class="rounded-box-num">
-                                                        <p>2</p>
-                                                </div>
-                                                <div class="rounded-box-img">
-                                                        <img src="./assets/images/document.png" alt="" />
-                                                </div>
-                                                <div class="rounded-box-info">
-                                                        <h4>Receive a personalized treatment plan</h4>
-                                                        <p>Tailored to your needs.</p>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="box-one">
-                                        <div class="rounded-box">
-                                                <div class="rounded-box-num">
-                                                        <p>3</p>
-                                                </div>
-                                                <div class="rounded-box-img">
-                                                        <img src="./assets/images/teeth.png" alt="" />
-                                                </div>
-                                                <div class="rounded-box-info">
-                                                        <h4>Begin your aligner journey</h4>
-                                                        <p>Fast, convenient, and hassle-fre e.</p>
-                                                </div>
-                                        </div>
-                                </div>
-                                <div class="box-two">
-                                        <div class="rounded-box">
-                                                <div class="rounded-box-num">
-                                                        <p>4</p>
-                                                </div>
-                                                <div class="rounded-box-img">
-                                                        <img src="./assets/images/smile.png" alt="" />
-                                                </div>
-                                                <div class="rounded-box-info">
-                                                        <h4>Smile confidently</h4>
-                                                        <p>Show off your beautiful, new smile!</p>
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
+    <section class="video-testimonial">
+        <div class="container">
+            <h2>ประสบการณ์จากใจของลูกค้าผู้ใช้บริการ</h2>
+            <div class="videos-container">
+                <div class="video-container">
+                    <video id="video" class="video">
+                        <source src="./assets/images/sample.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="assets/images/video-new-1.png" alt="Thumbnail" class="thumbnail" id="thumbnail" />
+                    <button class="play-button" id="play-button">
+                        <img src="assets/images/video-btn.png" alt="icon" />
+                    </button>
                 </div>
-        </section>
+                <div class="video-container">
+                    <video id="video-two" class="video">
+                        <source src="./assets/images/sample.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="assets/images/video-new-2.png" alt="Thumbnail" class="thumbnail" id="thumbnail-two" />
+                    <button class="play-button" id="play-button-two">
+                        <img src="assets/images/video-btn.png" alt="icon" />
+                    </button>
 
-        <section class="ready-to-start">
-                <div class="container">
-                        <div class="ready-to-start-info">
-                                <h1>
-                                        Ready to Start Your Journey to a Perfect
-                                        <span class="chng-font-family chng-font-size">Smile</span>?
-                                </h1>
-                                <a href="#contact" class="btn-primary">Claim My Free Consultation</a>
-                        </div>
-                        <div class="ready-to-start-img">
-                                <img src="./assets/images/cta-info.png" alt="" />
-                        </div>
                 </div>
-        </section>
+                <div class="video-container">
+                    <video id="video-three" class="video">
+                        <source src="./assets/images/sample.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="assets/images/video-new-3.png" alt="Thumbnail" class="thumbnail" id="thumbnail-three" />
+                    <button class="play-button" id="play-button-three">
+                        <img src="assets/images/video-btn.png" alt="icon" />
+                    </button>
+                </div>
+            </div>
+            <div class="videos-container-two">
+                <div class="video-container">
+                    <video id="video-four" class="video">
+                        <source src="./assets/images/sample.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="assets/images/video-new-4.png" alt="Thumbnail" class="thumbnail" id="thumbnail-four" />
+                    <button class="play-button" id="play-button-four">
+                        <img src="assets/images/video-btn.png" alt="icon" />
+                    </button>
+                </div>
+                <div class="video-container">
+                    <video id="video-five" class="video">
+                        <source src="./assets/images/sample.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="assets/images/video-new-5.png" alt="Thumbnail" class="thumbnail" id="thumbnail-five" />
+                    <button class="play-button" id="play-button-five">
+                        <img src="assets/images/video-btn.png" alt="icon" />
+                    </button>
+                </div>
+                <div class="video-container">
+                    <video id="video-six" class="video">
+                        <source src="./assets/images/sample.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <img src="assets/images/video-new-6.png" alt="Thumbnail" class="thumbnail" id="thumbnail-six" />
+                    <button class="play-button" id="play-button-six">
+                        <img src="assets/images/video-btn.png" alt="icon" />
+                    </button>
+                </div>
+            </div>
 
-        <section class="testimonials-section">
-                <div class="container">
-                        <h2>Join Thousands of Happy Customers in Singapore</h2>
-                        <div class="testimonials">
-                                <div class="testimonial testimonial-1">
-                                        <div class="avatar-title">
-                                                <div class="avatar">
-                                                        <img src="./assets/images/adam.png" alt="" />
-                                                </div>
-                                                <div class="title">
-                                                        <h5>Adam Williams</h5>
-                                                </div>
-                                        </div>
-                                        <div class="testimonial-para">
-                                                <p>
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                                        text ever since the 1500s, when an unknown printer took a galley
-                                                        of type and scrambled it to make a type specimen book.
-                                                </p>
-                                        </div>
-                                        <div class="testimonial-img">
-                                                <img src="./assets/images/trust-pilot.png" alt="" />
-                                        </div>
-                                </div>
-                                <div class="testimonial testimonial-2">
-                                        <div class="avatar-title">
-                                                <div class="avatar">
-                                                        <img src="./assets/images/william.png" alt="" />
-                                                </div>
-                                                <div class="title">
-                                                        <h5>Adam Williams</h5>
-                                                </div>
-                                        </div>
-                                        <div class="testimonial-para">
-                                                <p>
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                                        text ever since the 1500s, when an unknown printer took a galley
-                                                        of type and scrambled it to make a type specimen book.
-                                                </p>
-                                        </div>
-                                        <div class="testimonial-img">
-                                                <img src="./assets/images/trust-pilot.png" alt="" />
-                                        </div>
-                                </div>
-                                <div class="testimonial testimonial-3">
-                                        <div class="avatar-title">
-                                                <div class="avatar">
-                                                        <img src="./assets/images/girk.png" alt="" />
-                                                </div>
-                                                <div class="title">
-                                                        <h5>Adam Williams</h5>
-                                                </div>
-                                        </div>
-                                        <div class="testimonial-para">
-                                                <p>
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                        industry. Lorem Ipsum has been the industry's standard dummy
-                                                        text ever since the 1500s, when an unknown printer took a galley
-                                                        of type and scrambled it to make a type specimen book.
-                                                </p>
-                                        </div>
-                                        <div class="testimonial-img">
-                                                <img src="./assets/images/trust-pilot.png" alt="" />
-                                        </div>
-                                </div>
-                        </div>
-                        <div class="proud-sec">
-                                <h3>Proud Partner of 1000+ Dental Clinics</h3>
-                                <div class="logos">
-                                        <marquee behavior="alternate" onMouseOver="this.stop()"
-                                                onMouseOut="this.start()">
-                                                <img src="./assets/images/logo-1.png" alt="" />
-                                                <img src="./assets/images/logo-2.png" alt="" />
-                                                <img src="./assets/images/logo-3.png" alt="" />
-                                                <img src="./assets/images/logo-4.png" alt="" />
-                                                <img src="./assets/images/logo-1.png" alt="" />
-                                                <img src="./assets/images/logo-2.png" alt="" />
-                                                <img src="./assets/images/logo-3.png" alt="" />
-                                                <img src="./assets/images/logo-4.png" alt="" />
-                                                <img src="./assets/images/logo-1.png" alt="" />
-                                                <img src="./assets/images/logo-2.png" alt="" />
-                                                <img src="./assets/images/logo-3.png" alt="" />
-                                                <img src="./assets/images/logo-4.png" alt="" />
-                                        </marquee>
-                                </div>
-                        </div>
+            <div class="logos-flex">
+                <div class="logos-heading">
+                    <h4>
+                        ได้รับการรับรอง และ ได้รับการอนุมัติทางการแพทย์
+                    </h4>
                 </div>
-        </section>
+                <div class="logos-imgs">
+                    <img src="./assets/images/med-cer-1.png" alt="" />
+                <img src="./assets/images/med-cer-2.png" alt="" />
+                <img src="./assets/images/med-cer-3.png" alt="" />
+                <img src="./assets/images/med-cer-4.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section class="faq-sec">
-                <div class="container">
-                        <div class="faq-sec-info">
-                                <h2>Got Questions? We’ve Got Answers</h2>
+    <section class="how-it-work">
+        <div class="container">
+            <h2>
+                4 ขั้นตอน จัดฟันใส เป็นเจ้าของรอยยิ้ม ฟันเรียงสวยอย่างเป็นธรรมชาติ
+            </h2>
+            <div class="rounded-boxes">
+                <div class="box-one">
+                    <div class="rounded-box">
+                        <div class="rounded-box-num">
+                            <p>1</p>
                         </div>
-                        <div class="faq-sec-accordian">
-                                <div class="accordians-faq">
-                                        <div class="accordian-faq">
-                                                <button class="accordion">Is it painful?</button>
-                                                <div class="panel">
-                                                        <p>
-                                                                Our aligners are designed for comfort, with minimal
-                                                                discomfort
-                                                                compared to traditional braces.
-                                                        </p>
-                                                </div>
-                                        </div>
-                                        <div class="accordian-faq">
-                                                <button class="accordion">How long does it take?</button>
-                                                <div class="panel">
-                                                        <p>
-                                                                Our aligners are designed for comfort, with minimal
-                                                                discomfort
-                                                                compared to traditional braces.
-                                                        </p>
-                                                </div>
-                                        </div>
-                                        <div class="accordian-faq">
-                                                <button class="accordion">Is it expensive?</button>
-                                                <div class="panel">
-                                                        <p>
-                                                                Our aligners are designed for comfort, with minimal
-                                                                discomfort
-                                                                compared to traditional braces.
-                                                        </p>
-                                                </div>
-                                        </div>
-                                        <div class="accordian-faq">
-                                                <button class="accordion">Will they really work for me?</button>
-                                                <div class="panel">
-                                                        <p>
-                                                                Our aligners are designed for comfort, with minimal
-                                                                discomfort
-                                                                compared to traditional braces.
-                                                        </p>
-                                                </div>
-                                        </div>
-                                        <div class="accordian-faq">
-                                                <button class="accordion">
-                                                        Leo tristique aliquet ut risus faucibus ipsum eget?
-                                                </button>
-                                                <div class="panel">
-                                                        <p>
-                                                                Our aligners are designed for comfort, with minimal
-                                                                discomfort
-                                                                compared to traditional braces.
-                                                        </p>
-                                                </div>
-                                        </div>
-                                        <div class="accordian-faq">
-                                                <button class="accordion">
-                                                        Malesuada vitae nisl sed luctus quisque consectetur platea?
-                                                </button>
-                                                <div class="panel">
-                                                        <p>
-                                                                Our aligners are designed for comfort, with minimal
-                                                                discomfort
-                                                                compared to traditional braces.
-                                                        </p>
-                                                </div>
-                                        </div>
-                                </div>
+                        <div class="rounded-box-img">
+                            <img src="./assets/images/msg.png" alt="" />
                         </div>
+                        <div class="rounded-box-info">
+                            <h4>ทำแบบประเมินฟันออนไลน์ฟรี</h4>
+                            <p>ประเมินฟันออนไลน์เพื่อวิเคราะห์
+                                ปัญหาฟันและรูปแบบฟันที่คนไข้ต้องการ</p>
+                        </div>
+                    </div>
                 </div>
-        </section>
+                <div class="box-two">
+                    <div class="rounded-box">
+                        <div class="rounded-box-num">
+                            <p>2</p>
+                        </div>
+                        <div class="rounded-box-img">
+                            <img src="./assets/images/document.png" alt="" />
+                        </div>
+                        <div class="rounded-box-info">
+                            <h4>ประเมินฟันสำหรับ
+                                แผนจัดฟันเฉพาะบุคคล</h4>
+                            <p>ปรับวิธีการจัดฟันให้ตรงกับปัญหาฟันของคนไข้</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-one">
+                    <div class="rounded-box">
+                        <div class="rounded-box-num">
+                            <p>3</p>
+                        </div>
+                        <div class="rounded-box-img">
+                            <img src="./assets/images/teeth.png" alt="" />
+                        </div>
+                        <div class="rounded-box-info">
+                            <h4>เริ่มต้นการจัดฟันด้วยอุปกรณ์จัดฟันใส</h4>
+                            <p>ใส่อุปกรณ์จัดฟันอย่างสม่ำเสมอ ใช้ชีวิตสะดวกสะบาย รอผลลัพธ์</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-two">
+                    <div class="rounded-box">
+                        <div class="rounded-box-num">
+                            <p>4</p>
+                        </div>
+                        <div class="rounded-box-img">
+                            <img src="./assets/images/smile.png" alt="" />
+                        </div>
+                        <div class="rounded-box-info">
+                            <h4>ยิ้มได้อย่างมั่นใจ</h4>
+                            <p>โชว์รอยยิ้มใหม่ของคุณ
+                                อย่างมั่นใจ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section class="contact-sec" id="contact">
-                <div class="container">
-                        <h2>Claim Your Free Consultation Now – Limited Spots Available!</h2>
-                        <div class="image-form">
-                                <div class="contact-sec-img">
-                                        <img src="./assets/images/form-info.png" alt="" />
-                                </div>
-                                <div class="contact-sec-form">
-                                        <form action="" class="contact-form">
-                                                <div class="name">
-                                                        <input type="text" name="Name" placeholder="Name" />
-                                                </div>
-                                                <div class="ph-numner">
-                                                        <input type="number" placeholder="Phone Number" />
-                                                </div>
-                                                <div class="email">
-                                                        <input type="email" placeholder="Email" />
-                                                </div>
-                                                <div class="drop-down">
-                                                        <select value="Specific Dental Concern">
-                                                                <option value="Specific Dental Concern 1">
-                                                                        Specific Dental Concern 1
-                                                                </option>
-                                                                <option value="Specific Dental Concern 2">
-                                                                        Specific Dental Concern 2
-                                                                </option>
-                                                                <option value="Specific Dental Concern 3">
-                                                                        Specific Dental Concern 3
-                                                                </option>
-                                                                <option value="Specific Dental Concern 4">
-                                                                        Specific Dental Concern 4
-                                                                </option>
-                                                        </select>
-                                                </div>
-                                                <button class="btn-primary">Submit and Claim My Offer</button>
-                                        </form>
-                                </div>
+    <section class="ready-to-start">
+        <div class="container">
+            <div class="ready-to-start-info">
+                <h1>
+                    พร้อมที่จะยิ้มอย่างมั่นใจรึยัง?
+                </h1>
+                <a href="#contact" class="btn-primary">ปรึกษาและประเมินฟันฟรี</a>
+            </div>
+            <div class="ready-to-start-img">
+                <img src="./assets/images/cta-new-info.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>ความรู้สึกของลูกค้านับพันในประเทศไทย</h2>
+            <div class="testimonials">
+                <div class="testimonial testimonial-1">
+                    <div class="avatar-title">
+                        <div class="avatar">
+                            <img src="./assets/images/adam.png" alt="" />
                         </div>
+                        <div class="title">
+                            <h5>คุณ Lookmee</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-para">
+                        <p>
+                            รอยยิ้มคือสิ่งสำคัญสำหรับหมีในการทำงาน ไม่ว่าจะเป็นงานโปรดักชันหรือถ่ายภาพ
+                            การมีฟันเรียงสวยและรอยยิ้มที่สวยงามเป็นจุดขายที่ทำให้การถ่าย
+                            งานทั้งหมดง่ายขึ้นการมีรอยยิ้มที่สวยทำให้มั่นใจในการใช้ชีวิต
+                            และการทำงานมากขึ้นจริงๆ ค่ะ!
+                        </p>
+                    </div>
+                    <div class="testimonial-img">
+                        <img src="./assets/images/trust-pilot.png" alt="" />
+                    </div>
                 </div>
-        </section>
-        <section class="footer">
-                <div class="container">
-                        <div class="footer-column column-1">
-                                <div class="f-logo">
-                                        <img src="./assets/images/dr-logo.png" alt="" />
-                                        <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text
-                                                ever since the 1500s, when an unknown printer took a galley of
-                                                type and scrambled it to make a type specimen book.
-                                        </p>
-                                        <a href="#contact" class="btn-primary chng-color">
-                                                FREE <span>SMILE</span> ASSESSMENT
-                                        </a>
-                                </div>
+                <div class="testimonial testimonial-2">
+                    <div class="avatar-title">
+                        <div class="avatar">
+                            <img src="./assets/images/william.png" alt="" />
                         </div>
-<!--                         <div class="footer-column column-2">
+                        <div class="title">
+                            <h5>คุณ Eve</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-para">
+                        <p>
+                            อีฟเป็นนักแสดงช่อง7 ที่รู้ว่ารอยยิ้มสำคัญต่ออาชีพมากๆ การที่เราแสดงละคร
+                            เราต้องมีรอยยิ้มที่ดูดี และสดใสตลอด วันนี้อีฟเลือกจัดฟันใสกับ Dr Clear Aligners
+                            เพื่อทำให้รอยยิ้มดูดีขึ้น ยิ้มสวยและสดใสมากขึ้นค่ะ
+                        </p>
+                    </div>
+                    <div class="testimonial-img">
+                        <img src="./assets/images/trust-pilot.png" alt="" />
+                    </div>
+                </div>
+                <div class="testimonial testimonial-3">
+                    <div class="avatar-title">
+                        <div class="avatar">
+                            <img src="./assets/images/girk.png" alt="" />
+                        </div>
+                        <div class="title">
+                            <h5>คุณ Rewkoh</h5>
+                        </div>
+                    </div>
+                    <div class="testimonial-para">
+                        <p>
+                            ที่ริวโกะเลือกจัดฟันใสที่นี่เพราะวัสดุพรีเมี่ยมนำเข้าจากเยอรมนี
+                            และยังทราบแผนการรักษาล่วงหน้าว่าจะเสร็จเมื่อไหร่
+                            พี่ๆ ในคลินิกบริการดีมาก แถมราคาไม่แพงอีกด้วย!
+                        </p>
+                    </div>
+
+
+                    <div class="testimonial-img">
+                        <img src="./assets/images/trust-pilot.png" alt="" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="button-test">
+                <a href="#">ปรึกษาและประเมินฟันฟรี</a>
+            </div>
+            <div class="test-reviews">
+                <img src="./assets/images/face-book.png" alt="">
+                <img src="./assets/images/google-reviews.png" alt="">
+                <img src="./assets/images/Trustpiot.png" alt="">
+            </div>
+            <div class="proud-sec">
+                <h3>พันธมิตรที่ภาคภูมิใจของคลินิกทันตกรรมมากกว่า 1,000 แห่ง</h3>
+                <div class="logos">
+                    <marquee behavior="alternate" onMouseOver="this.stop()" onMouseOut="this.start()">
+                        <img src="./assets/images/logo-1.png" alt="" />
+                        <img src="./assets/images/logo-2.png" alt="" />
+                        <img src="./assets/images/logo-3.png" alt="" />
+                        <img src="./assets/images/logo-4.png" alt="" />
+                        <img src="./assets/images/logo-1.png" alt="" />
+                        <img src="./assets/images/logo-2.png" alt="" />
+                        <img src="./assets/images/logo-3.png" alt="" />
+                        <img src="./assets/images/logo-4.png" alt="" />
+                        <img src="./assets/images/logo-1.png" alt="" />
+                        <img src="./assets/images/logo-2.png" alt="" />
+                        <img src="./assets/images/logo-3.png" alt="" />
+                        <img src="./assets/images/logo-4.png" alt="" />
+                    </marquee>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-new-sec">
+        <div class="container">
+            <h2>คำถามที่พบบ่อย เรามีคำตอบ</h2>
+            <div class="all-faq-ques-ans">
+                <div class="faq-ques-ans">
+                    <div class="faq-ques">
+                        <span><img src="./assets/images/faq-ques-before.png" alt=""></span>
+                        <p>จัดฟันใสเจ็บไหม?</p>
+                    </div>
+                    <div class="faq-ans">
+                        <p>การจัดฟันแบบใสเจ็บน้อยกว่าการจัดฟันแบบอื่น และอาจรู้สึกตึงเล็กน้อยในระยะสั้น
+                            สำหรับคนไข้ที่ฟันเรียงแน่น อาจมีอาการเจ็บใน 1-2 วันแรก แต่จะดีขึ้นเรื่อย ๆ
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-ques-ans">
+                    <div class="faq-ques">
+                        <span><img src="./assets/images/faq-ques-before.png" alt=""></span>
+                        <p>ราคาแพงไหม?</p>
+                    </div>
+                    <div class="faq-ans">
+                        <p>
+                            ราคาเริ่มต้นที่ 29,500 บาท โดยคนไข้สามารถแบ่งจ่ายเป็นงวดหรือจ่ายครั้งเดียวได้
+                            ขึ้นอยู่กับปัญหาฟันและแพ็กเกจที่เลือก นอกจากนี้ คนไข้ยังสามารถปรึกษาทันตแพทย์ที่ Dr Clear
+                            Aligners ได้ฟรี ไม่มีค่าใช้จ่าย
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="all-faq-ques-ans">
+                <div class="faq-ques-ans">
+                    <div class="faq-ques">
+                        <span><img src="./assets/images/faq-ques-before.png" alt=""></span>
+                        <p>ใช่ระยะเวลานานเท่าไหร่?</p>
+                    </div>
+                    <div class="faq-ans">
+                        <p>ระยะเวลาในการรักษาขึ้นอยู่กับสภาพฟันและความซับซ้อนของแต่ละบุคคล
+                            โดยเฉลี่ยจะใช้เวลาน้อยกว่าการจัดฟันแบบเหล็ก
+                            หากมีวินัยในการใส่เครื่องมือจะเห็นผลเร็วภายในประมาณ 6 เดือนถึง 1 ปี
+                            ซึ่งสั้นกว่าการจัดฟันแบบทั่วไปประมาณ 30%
+                            แต่ยังขึ้นอยู่กับปัญหาสุขภาพฟันและโครงสร้างใบหน้าของแต่ละคนด้วย
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-ques-ans">
+                    <div class="faq-ques">
+                        <span><img src="./assets/images/faq-ques-before.png" alt=""></span>
+                        <p>ทำไมการจัดฟันใสถึงเหมาะกับฉัน?</p>
+                    </div>
+                    <div class="faq-ans">
+                        <p>
+                            การจัดฟันแบบใสที่ Dr Clear Aligners ออกแบบเฉพาะบุคคลด้วยระบบคอมพิวเตอร์ แสดงผลเป็นวิดีโอ 3D
+                            ช่วยให้ฟันเรียงตัวสวยโดยไม่ให้ใครรู้ ต่างจากการจัดฟันแบบเหล็กทั่วไป นอกจากนี้
+                            การจัดฟันแบบใสยังถอดได้ ทำให้สะดวกสบายสำหรับคนไข้มากยิ่งขึ้น
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="all-faq-ques-ans">
+                <div class="faq-ques-ans">
+                    <div class="faq-ques">
+                        <span><img src="./assets/images/faq-ques-before.png" alt=""></span>
+                        <p>จัดฟันแบบใส ต้องใส่รีเทนเนอร์ไหม?</p>
+                    </div>
+                    <div class="faq-ans">
+                        <p>ไม่ว่าคุณจะใส่เครื่องมือจัดฟันชนิดใด คุณยังต้องใส่รีเทนเนอร์เพื่อรักษาสภาพฟันหลังการจัดฟัน
+                            โดยทันตแพทย์แนะนำให้ถอดในช่วง 1–2 ปีแรกเวลารับประทานอาหารและแปรงฟัน
+                            หลังจากนั้นสามารถลดเวลาได้ตามความเหมาะสม
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-ques-ans">
+                    <div class="faq-ques">
+                        <span><img src="./assets/images/faq-ques-before.png" alt=""></span>
+                        <p>การดูแลช่องปากหลังจัดฟันใส ต้องทำอย่างไร?</p>
+                    </div>
+                    <div class="faq-ans">
+                        <p>
+                            การดูแลต้องเคร่งครัด เพราะทุกอย่างมีผลต่อการจัดฟัน
+                            เพื่อลดค่าใช้จ่ายและเวลาในการจัดฟันใหม่อีกครั้ง
+                        </p>
+                        <ul>
+                            <li>แปรงฟันหลังอาหาร</li>
+                            <li>ใช้ไหมขัดฟัน</li>
+                            <li>หมั่นทำความสะอาดเครื่องมือจัดฟันใส</li>
+                            <li>พบทันตแพทย์ตามกำหนดเสมอ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="all-faq-ques-ans">
+                <div class="faq-ques-ans">
+                    <div class="faq-ques">
+                        <span><img src="./assets/images/faq-ques-before.png" alt=""></span>
+                        <p>เด็กจัดฟันใสได้รึเปล่า?</p>
+                    </div>
+                    <div class="faq-ans">
+                        <p>การจัดฟันใสสำหรับเด็กเริ่มได้ตั้งแต่อายุ 6 ปีจนถึง 19 ปี โดยแตกต่างจากการจัดฟันในผู้ใหญ่
+                            ข้อได้เปรียบคือเด็กและวัยรุ่นที่กำลังเจริญเติบโตสามารถขยับฟันและปรับโครงหน้าได้ดีกว่า
+                            มีข้อจำกัดน้อยกว่า ส่งผลให้ผลลัพธ์ออกมาสมบูรณ์แบบมากขึ้น
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-ques-ans">
+                    <div class="faq-ques">
+                        <span><img src="./assets/images/faq-ques-before.png" alt=""></span>
+                        <p>จัดฟันแบบใส ต้องถอนฟันไหม?</p>
+                    </div>
+                    <div class="faq-ans">
+                        <p>
+                            ในกรณีที่มีฟันเกหรือฟันยื่นมาก อาจจำเป็นต้องถอนฟันร่วมด้วย
+                            แต่ส่วนใหญ่คนไข้ที่จัดฟันแบบใสไม่ต้องถอนฟัน หากสนใจปรึกษาปัญหาการจัดฟันแบบใส
+                            สามารถนัดหมายกับทาง Dr Clear Aligners เพื่อพูดคุยกับทันตแพทย์โดยตรง
+                            ทำให้การดูแลช่องปากและฟันเป็นเรื่องง่ายและไม่ยุ่งยากอีกต่อไป
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="all-faq-ques-ans">
+                <div class="faq-ques-ans">
+                    <div class="faq-ques">
+                        <span><img src="./assets/images/faq-ques-before.png" alt=""></span>
+                        <p>จัดฟันใสทำให้พูดไม่ชัดรึป่าว?</p>
+                    </div>
+                    <div class="faq-ans">
+                        <p>เครื่องมือจัดฟันจะติดแนบกับฟันในรูปแบบสวมครอบ มีสัมผัสนุ่มนวลไม่ทำให้ระคายเคืองช่องปาก
+                            คุณอาจรู้สึกแปลกในช่วงแรก แต่เมื่อชินแล้วสามารถใช้ชีวิตประจำวันได้ตามปกติ
+                            รวมถึงการพูดและออกเสียง อุปกรณ์จัดฟันใสยังทำให้คนอื่นสังเกตเห็นได้ยาก
+                            ช่วยเพิ่มความมั่นใจในการยิ้มและพูดคุยกับผู้อื่น
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-ques-ans last-bd-none">
+                    <!-- <div class="faq-ques">
+                            <span><img src="./assets/images/faq-ques-before.png" alt=""></span> <p>How long does it take?</p>
+                        </div>
+                        <div class="faq-ans">
+                            <p>
+                                Our aligners are designed for comfort, with minimal discomfort compared to traditional braces.
+                        </p>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-sec" id="contact">
+        <div class="container">
+            <h2>รับคำปรึกษาและประเมินฟันของคุณฟรี!!</h2>
+            <div class="image-form">
+                <div class="contact-sec-img">
+                    <img src="./assets/images/form-new-info.png" alt="" />
+                </div>
+                <div class="contact-sec-form">
+                    <form action="" class="contact-form">
+                        <div class="name">
+                            <input type="text" name="Name" placeholder="ชื่อ" />
+                        </div>
+                        <div class="ph-numner">
+                            <input type="number" placeholder="เบอร์โทร" />
+                        </div>
+                        <div class="email">
+                            <input type="email" placeholder="อีเมล" />
+                        </div>
+                        <div class="drop-down">
+                            <select value="ปัญหาฟันที่คนไข้พบ">
+                                <option value="ปัญหาฟันที่คนไข้พบ 1">
+                                    ปัญหาฟันที่คนไข้พบ 1
+                                </option>
+                                <option value="ปัญหาฟันที่คนไข้พบ 2">
+                                    ปัญหาฟันที่คนไข้พบ 2
+                                </option>
+                                <option value="ปัญหาฟันที่คนไข้พบ 3">
+                                    ปัญหาฟันที่คนไข้พบ 3
+                                </option>
+                                <option value="ปัญหาฟันที่คนไข้พบ 4">
+                                    ปัญหาฟันที่คนไข้พบ 4
+                                </option>
+                            </select>
+                        </div>
+                        <button class="btn-primary">ส่งข้อมูลและรับข้อเสนอพิเศษ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer-column column-1">
+                <div class="f-logo">
+                    <img src="./assets/images/dr-logo.png" alt="" />
+                    <p>
+                        สัมผัสชีวิตที่ดีขึ้นด้วยรอยยิ้มอันเจิดจ้า เราให้บริการรักษาทางทันตกรรมและการจัดฟันอย่างเชี่ยวชาญ เพื่อทำให้ฟันของคุณสวยงามยิ่งขึ้น
+                    </p>
+                    <a href="#contact" class="btn-primary chng-color">
+                        ประเมินฟันฟรี ได้ที่นี่
+                    </a>
+                </div>
+            </div>
+            <!--                         <div class="footer-column column-2">
                                 <h4>SITEMAP</h4>
                                 <div class="menus">
                                         <div class="menu">
@@ -786,52 +836,39 @@
                                         </div>
                                 </div>
                         </div> -->
-                        <div class="footer-column column-3">
-                                <h4>SUPPORT</h4>
-                                <div class="email-box">
-                                        <i class="fa-solid fa-envelope"></i>
-                                        <a href="#">info@drclear.com</a>
-                                </div>
-                                <div class="logos">
-                                        <img src="./assets/images/logo-1.png" alt="" />
-                                        <img src="./assets/images/logo-2.png" alt="" />
-                                        <img src="./assets/images/logo-3.png" alt="" />
-                                        <img src="./assets/images/logo-4.png" alt="" />
-                                </div>
-                        </div>
-                        <div class="footer-column column-4">
-                                <h4>SUPPORT</h4>
-                                <div class="social-icons">
-                                        <a href="https://www.instagram.com/drclearalignersthailand" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                                        <a href="https://www.facebook.com/DrClearAlignersTh" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                                        <a href="https://www.tiktok.com/@drclearalignersth" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                                        
-                                </div>
-                        </div>
+            <div class="footer-column column-3">
+                <h4>SUPPORT</h4>
+                <div class="email-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="#">info@drclear.com</a>
                 </div>
-        </section>
+                <div class="logos">
+                    <img src="./assets/images/logo-1.png" alt="" />
+                    <img src="./assets/images/logo-2.png" alt="" />
+                    <img src="./assets/images/logo-3.png" alt="" />
+                    <img src="./assets/images/logo-4.png" alt="" />
+                </div>
+            </div>
+            <div class="footer-column column-4">
+                <h4>SUPPORT</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/drclearalignersthailand" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/DrClearAlignersTh" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.tiktok.com/@drclearalignersth" target="_blank"><i
+                            class="fa-brands fa-tiktok"></i></a>
 
-        <script src="assets/js/before-after.js"></script>
-        <script src="./assets/js/app.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/before-after.js"></script>
+    <script src="./assets/js/app.js"></script>
 
 
 
-
-
-
-
-        <!-- Google Translate Script -->
-        <script type="text/javascript">
-                function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({
-                                pageLanguage: 'en',                       // Default language
-                                includedLanguages: 'en,tr,hi,th',       // Only English and Turkish
-                                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-                        }, 'google_translate_element');
-                }
-        </script>
-        <script type="text/javascript"
-                src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
 
