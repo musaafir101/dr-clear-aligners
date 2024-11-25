@@ -13,6 +13,11 @@
     src: url('../fonts/calorie/Calorie\ Demo.ttf');
 }
 
+@font-face {
+    font-family: arial;
+    src: url('../fonts/arail/arial.TTF');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -51,26 +56,27 @@ iframe#\:2\.container {
     --lato-regular: lato-regular;
     --lato-bold: lato-bold;
     --calorie: calorie;
+    --arial: arial;
 }
 
 h1 {
-    font-family: var(--lato-regular);
-    font-size: 5.6rem;
+    font-family: var(--arial);
+    font-size: 4.8rem;
     line-height: 6.6rem;
 }
 
 h2 {
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     font-size: 4rem;
 }
 
 h3 {
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     font-size: 2.4rem;
 }
 
 p {
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     font-size: 1.8rem;
 }
 
@@ -80,7 +86,7 @@ img {
 
 .btn-primary {
     font-size: 1.8rem;
-    font-family: var(--lato-bold);
+    font-family: var(--arial);
     padding: 19px 39px;
     background: rgb(16,80,144);
     background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%, rgba(16,80,142,1) 91%);
@@ -132,9 +138,7 @@ img {
     align-items: center;
     position: relative;
 }
-.banner .container::after{
-    content: '';
-    background: url('./../images/line\ 1.png');
+.banner .container .banner-img .lin{
     width: 70px;
     height: 70px;
     position: absolute;
@@ -159,7 +163,7 @@ img {
 
 .banner .container .banner-info h1 {
     color: var(--dark-blue);
-    width: 90%;
+    width: 100%;
 }
 
 .banner .container .banner-info h1 .chng-font-size {
@@ -191,9 +195,9 @@ img {
 
 .banner .container .banner-info ul li {
     font-size: 1.8rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     font-weight: 500;
-    color: var(--red);
+    color: #9a99a0;
 }
 
 .why-choose-us {
@@ -240,7 +244,7 @@ img {
 
 .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-info h4 {
     font-size: 2rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     color: var(--grey);
     font-weight: 500;
     padding-bottom: 16px;
@@ -248,7 +252,7 @@ img {
 
 .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-info p {
     font-size: 2rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     color: var(--light-grey);
     font-weight: 400;
     padding-bottom: 16px;
@@ -305,6 +309,51 @@ img {
     width: 50%;
 }
 
+
+.why-choose-us .why-choose-us-img p{
+    font-size: 1.2rem;
+    color: #000;
+    padding-top: 20px;
+}
+section.before-after-smile p{
+    font-size: 1.2rem;
+    color: #000;
+    padding-top: 20px;
+    text-align: right;
+}
+.special-offer-sec .special-offer-img p{
+    font-size: 1.2rem;
+    color: #000;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.video-testimonial p{
+    font-size: 1.2rem;
+    color: #000;
+    padding-top: 20px;
+    text-align: right;
+}
+.ready-to-start .container .ready-to-start-img p{
+    font-size: 1.2rem;
+    color: #000;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.testimonials-section .test-para{
+    font-size: 1.2rem;
+    color: #000;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.contact-sec .image-form .contact-sec-img .form-para {
+    font-size: 1.2rem;
+    color: #000;
+    margin-top: -20px;
+}
+
 .special-offer-sec .special-offer-info h2 {
     width: 60%;
     color: var(--dark-blue);
@@ -313,13 +362,13 @@ img {
 
 .special-offer-sec .special-offer-info .list h5 {
     font-size: 2.4rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     color: var(--grey);
     font-weight: 500;
 }
 
 .special-offer-sec .special-offer-info h2 {
-    width: 60%;
+    width: 70%;
 }
 
 .special-offer-sec .special-offer-info .list {
@@ -329,7 +378,7 @@ img {
 }
 .special-offer-sec .special-offer-info .list li {
     font-size: 2.4rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     color: var(--light-grey);
 }
 .special-offer-sec .special-offer-info .list ul {
@@ -374,7 +423,7 @@ section.special-offer-sec {
 .video-testimonial h2 {
     text-align: center;
     color: var(--dark-blue);
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     font-weight: 500;
 }
 .how-it-work {
@@ -400,6 +449,25 @@ section.special-offer-sec {
     justify-content: space-between;
     padding-top: 40px;
 }
+.language-btn .lin {
+    width: 60px;
+}
+.banner .container .banner-info .contact-form input {
+    height: 50px;
+    width: 100%;
+}
+
+.banner .container .banner-info .contact-form select {
+    height: 60px;
+}
+
+.banner .container .banner-info button {
+    margin-top: 20px;
+}
+.banner .container .banner-info .contact-sec-form {
+    width: 100%;
+}
+
 
 .rounded-box {
     background: #fafafa;
@@ -474,13 +542,13 @@ section.special-offer-sec {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 70%;
+    gap: 15px;
+    width: 80%;
 }
 
 .rounded-boxes .rounded-box-info h4 {
     font-size: 2.4rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     font-weight: 400;
     color: var(--grey);
 }
@@ -513,6 +581,8 @@ section.special-offer-sec {
 .ready-to-start .container .ready-to-start-img {
     width: 50%;
     text-align: right;
+    display: flex;
+    align-items: flex-end;
 }
 .ready-to-start .ready-to-start-info h1 {
     color: var(--dark-blue);
@@ -526,7 +596,8 @@ section.special-offer-sec {
     font-weight: 500;
 }
 .ready-to-start .container .ready-to-start-img img {
-    width: 90%;
+    width: 85%;
+    order: 2;
 }
 
 .testimonials-section {
@@ -551,7 +622,7 @@ section.special-offer-sec {
     font-size: 3rem;
     color: var(--light-grey);
     font-weight: 400;
-    width: 70%;
+    width: 100%;
 }
 
 .testimonials .testimonial {
@@ -562,6 +633,7 @@ section.special-offer-sec {
     display: flex;
     flex-direction: column;
     gap: 28px;
+    width: 33.33%;
 }
 .testimonials .testimonial .avatar-title {
     display: flex;
@@ -571,20 +643,20 @@ section.special-offer-sec {
 
 .testimonials .testimonial .avatar-title h5 {
     font-size: 2rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     font-weight: 500;
     color: var(--grey);
 }
 .testimonials .testimonial p {
     font-size: 1.8rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     font-weight: 400;
     color: var(--light-grey);
     line-height: 25.92px;
     letter-spacing: -0.48px;
 }
 .testimonials .testimonial .testimonial-img img {
-    width: 50%;
+    width: 60%;
 }
 .proud-sec {
     padding-top: 86px;
@@ -623,12 +695,12 @@ marquee img {
 
 .button-test a {
     font-size: 1.8rem;
-    font-family: var(--lato-bold);
+    font-family: var(--arial);
     padding: 19px 39px;
     border: none;
     border-radius: 30px;
     text-decoration: none;
-    background: var(--mustard);
+    background: linear-gradient(130deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%, rgba(16,80,142,1) 91%);
     color: var(--white);
 }
 .contact-sec {
@@ -733,7 +805,7 @@ background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%
 .footer .footer-column h4 {
     color: var(--dark-blue);
     font-size: 2.2rem;
-    font-family: var(--lato-bold);
+    font-family: var(--arial);
 }
 .footer .f-logo .chng-color span {
     font-size: 3.6rem;
@@ -757,7 +829,7 @@ background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%
 }
 .footer .footer-column .menu li {
     font-size: 1.8rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
 
 }
 .footer .footer-column .email-box {
@@ -775,7 +847,7 @@ background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%
 .footer .footer-column .email-box a {
     font-size: 2rem;
     text-decoration: none;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     color: var(--dark-blue);
 }
 .footer .footer-column .logos {
@@ -822,23 +894,13 @@ background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%
     right: 2%;
     bottom: 3%;
     z-index: 9999;
-    background: #fff;
-    padding: 5px;
-    border-radius: 10px;
+    background: transparent;
+    padding: 0px;
+    border-radius: 50%;
     flex-direction: column;
 }
 
-.language-btn a {
-    text-decoration: none;
-    font-size: 16px;
-    background: #fff;
-    padding: 13px 20px;
-    border-radius: 60px;
-    border: 1px solid;
-    color: #fff;
-    background: linear-gradient(130deg, rgba(16, 80, 144, 1) 14%, rgba(99, 155, 215, 1) 48%, rgba(16, 80, 142, 1) 91%);
-    border: none;
-}
+    
 .video {
     width: 100%;
     border-radius: 10px;
@@ -956,7 +1018,7 @@ background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%
     padding: 34px;
     border: 1px solid;
     font-size: 6.6rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     line-height: 36px;
     text-align: center;
     border-radius: 18px;
@@ -974,7 +1036,7 @@ background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%
 
 .special-offer-sec .special-offer-info .countdown-timer .count-time span{
     font-size: 1.6rem;
-    font-family: var(--lato-regular);
+    font-family: var(--arial);
     padding-top: 20px;
 }
 
@@ -1167,7 +1229,7 @@ marquee img {
     gap: 46px;
 }
 .ready-to-start .ready-to-start-info h1 {
-    width: 60%;
+    width: 90%;
 }
 }
 @media screen and (max-width:1440px){
@@ -1228,7 +1290,7 @@ marquee img {
     }
     .video-testimonial .logos-flex {
         margin-top: 40px;
-        gap: 126px;
+        gap: 0;
     }
     .how-it-work {
         padding: 75px 0px;
@@ -1242,7 +1304,7 @@ marquee img {
         gap: 14px;
     }
     .rounded-boxes .rounded-box-img img {
-        width: 60px;
+        width: 50px;
     }
     .how-it-work .container {
         padding-bottom: 75px;
@@ -1283,7 +1345,7 @@ marquee img {
     }
     .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-img {
         width: 120px;
-        margin: auto;
+        margin: 0 auto;
     }
     .why-choose-us-info .why-choose-us-info-boxes {
         gap: 20px;
