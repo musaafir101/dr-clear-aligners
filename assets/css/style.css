@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: arial;
-    src: url('../fonts/arial.TTF');
+    src: url('../fonts/arail/arial.TTF');
 }
 
 * {
@@ -231,6 +231,7 @@ img {
     flex-direction: column;
     gap: 24px;
     width: 50%;
+    justify-content: flex-start;
 }
 
 .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-img {
@@ -734,7 +735,7 @@ marquee img {
     width: 100%;
 }
 
-.contact-form input {
+.contact-form input,.contact-form select {
     background: transparent;
     border: none;
     height: 70px;
@@ -842,6 +843,10 @@ background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%
 .footer .container .footer-column i {
     color: var(--dark-blue);
     font-size: 2rem;
+}
+
+.box-one img {
+    width: 60px;
 }
 
 .footer .footer-column .email-box a {
@@ -1233,6 +1238,9 @@ marquee img {
 }
 }
 @media screen and (max-width:1440px){
+    .box-two img {
+        width: 42px !important;
+    }
     .container {
         width: 100%;
         max-width: 1180px;
@@ -1259,7 +1267,7 @@ marquee img {
     }
     .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-img {
         width: 140px;
-        margin: auto;
+        margin: 0 auto;
     }
     .special-offer-sec .special-offer-info .countdown-timer .count-time{
         width: 128px;
@@ -1971,6 +1979,16 @@ marquee img {
     }
 }
 @media screen and (max-width:600px){
+    .ready-to-start .ready-to-start-info h1 {
+        width: 100%;
+        font-size: 24px;
+    }
+    .logos-heading h4 {
+        font-size: 15px;
+    }
+    .contact-form select {
+        font-size: 12px;
+    }
     .image-comparison {
         max-width: 48.063em;
         margin-right: auto;
@@ -2046,6 +2064,7 @@ marquee img {
     }
     .rounded-boxes .rounded-box-info p {
         font-size: 13px;
+        padding: 0 11px;
     }
     .how-it-work {
         padding: 35px 0px;
@@ -2112,6 +2131,7 @@ marquee img {
     }
     .banner .container .banner-info h1 {
         width: 100%;
+        font-size: 19px;
     }
     .banner .container .banner-info .banner-txt {
         font-size: 16px;
@@ -2226,7 +2246,7 @@ marquee img {
         width: 40px;
     }
     .rounded-box h4 {
-        font-size: 14px !important;
+        font-size: 15px !important;
     }
     .rounded-box {
         height: 180px;
