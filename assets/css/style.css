@@ -237,7 +237,7 @@ img {
 .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-img {
     width: 150px;
     height: 150px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-info {
@@ -636,6 +636,7 @@ section.special-offer-sec {
     flex-direction: column;
     gap: 28px;
     width: 33.33%;
+    justify-content: space-between;
 }
 .testimonials .testimonial .avatar-title {
     display: flex;
@@ -1423,6 +1424,10 @@ marquee img {
 
 }
 @media screen and (max-width:1280px){
+    .logos-imgs {
+        display: flex;
+        gap: 120px;
+    }
     .testimonials {
         gap: 20px;
         padding-top: 46px;
@@ -1463,6 +1468,10 @@ marquee img {
     
 }
 @media screen and (max-width:1190px){
+    .logos-imgs {
+        display: flex;
+        gap: 90px;
+    }
     .container {
         width: 100%;
         max-width: 1020px;
@@ -1474,7 +1483,7 @@ marquee img {
     .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-img {
         width: 110px;
         height: 110px;
-        margin: auto;
+        margin: 0 auto;
     }
     .why-choose-us .container {
         gap: 45px;
@@ -1553,6 +1562,13 @@ marquee img {
     
 }
 @media screen and (max-width:1024px){
+    .logos-imgs {
+        display: flex;
+        gap: 70px;
+    }
+    .video-testimonial .logos-flex img {
+        width: 70px;
+    }
     
     .container {
         width: 100%;
@@ -1580,7 +1596,7 @@ marquee img {
     .why-choose-us-info .why-choose-us-info-boxes .why-choose-us-info-box .why-choose-us-info-box-img {
         width: 90px;
         height: 90px;
-        margin: auto;
+        margin: 0 auto;
     }
     .why-choose-us .why-choose-us-info h2 {
         padding-bottom: 20px;
@@ -2008,6 +2024,9 @@ marquee img {
     }
 }
 @media screen and (max-width:600px){
+    .rounded-box .rounded-box-num p {
+        top: 0%;
+    }
     .ready-to-start .ready-to-start-info h1 {
         width: 100%;
         font-size: 24px;
@@ -2092,7 +2111,7 @@ marquee img {
         font-size: 16px !important;
     }
     .rounded-boxes .rounded-box-info p {
-        font-size: 13px;
+        font-size: 12px;
         padding: 0 20px;
     }
     .rounded-boxes .box-two {
@@ -2249,6 +2268,9 @@ marquee img {
     .rounded-box .rounded-box-num p {
         top: 0%;
     }
+    .box-3 h4 {
+        min-height: 62px;
+    }
 }
 @media screen and (max-width:425px){
     .container {
@@ -2278,7 +2300,7 @@ marquee img {
         width: 40px;
     }
     .rounded-box h4 {
-        font-size: 15px !important;
+        font-size: 14px !important;
     }
     .rounded-box {
         height: 180px;
@@ -2365,7 +2387,9 @@ marquee img {
     .panel p {
         padding: 20px 70px 0px 45px !important;
     }
-    
+    .box-3 h4 {
+        min-height: auto;
+    }
 }
 @media screen and (max-width:320px){
     .banner .container .banner-info h1 {
@@ -2447,4 +2471,3 @@ marquee img {
     
     
 }
-
