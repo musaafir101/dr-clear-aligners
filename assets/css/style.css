@@ -2318,7 +2318,10 @@ marquee img {
     .special-offer-sec .special-offer-info h2 {
         width: 100%;
     }
-
+    .special-offer-sec .special-offer-info .list ul {
+        width: 100%;
+        padding-left: 10px;
+    }
 }
 @media screen and (max-width:375px){
     li{
@@ -2385,7 +2388,9 @@ marquee img {
     .panel p {
         padding: 20px 70px 0px 45px !important;
     }
-    
+    .special-offer-sec .special-offer-info .list ul {
+        padding-left: 0px;
+    }
 }
 @media screen and (max-width:320px){
     .banner .container .banner-info h1 {
