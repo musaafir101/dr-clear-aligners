@@ -399,8 +399,8 @@ section.special-offer-sec {
     padding-top: 10px;
 }
 .first-logos img {
-    width: 90px;
-    margin: 0 100px;
+    width: 100px;
+    margin: 0 70px;
 }
 
 .all-faq-ques-ans .faq-ques-ans .faq-ans ul li {
@@ -893,6 +893,7 @@ background: linear-gradient(90deg, rgba(16,80,144,1) 14%, rgba(99,155,215,1) 48%
     padding: 7px;
     background: #fff;
     border-radius: 10px;
+    width: 100%;
 }
 .language-btn {
     position: fixed;
@@ -2268,9 +2269,6 @@ marquee img {
     .rounded-box .rounded-box-num p {
         top: 0%;
     }
-    .box-3 h4 {
-        min-height: 62px;
-    }
 }
 @media screen and (max-width:425px){
     .container {
@@ -2387,9 +2385,7 @@ marquee img {
     .panel p {
         padding: 20px 70px 0px 45px !important;
     }
-    .box-3 h4 {
-        min-height: auto;
-    }
+    
 }
 @media screen and (max-width:320px){
     .banner .container .banner-info h1 {
@@ -2471,3 +2467,4 @@ marquee img {
     
     
 }
+
