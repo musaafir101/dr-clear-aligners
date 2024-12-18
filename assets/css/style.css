@@ -402,7 +402,10 @@ section.special-offer-sec {
     width: 100px;
     margin: 0 70px;
 }
-
+.brand-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
 .all-faq-ques-ans .faq-ques-ans .faq-ans ul li {
     font-size: 1.8rem;
     padding-left: 0px;
