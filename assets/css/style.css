@@ -83,6 +83,14 @@ img {
   width: 100%;
 }
 
+.banner .container .banner-info {
+  padding-bottom: 50px;
+}
+
+section.how-it-work {
+  padding-bottom: 0;
+}
+
 /* =========== COST SECTION STYLING ========== */
 
 .comp-container {
@@ -138,6 +146,10 @@ section.comparison-sec {
 }
 
 ul.feature-list li:last-child {
+  border-bottom: 0;
+}
+
+ul.feature-list.tick li:last-child {
   border-bottom: 0;
 }
 
@@ -293,6 +305,8 @@ details[open] summary:after {
 
 details[open] div {
   padding: 0.5em 1em;
+  font-size: 18px;
+  padding-left: 10px;
 }
 
 /* =========== COST SECTION STYLING ========== */
@@ -648,6 +662,9 @@ section.special-offer-sec {
 .last-bd-none {
   border: none !important;
 }
+.d-none {
+  display: none !important;
+}
 .contact-form input::placeholder {
   color: var(--grey);
 }
@@ -829,7 +846,8 @@ section.before-after-smile {
   width: 68%;
 }
 .ready-to-start .ready-to-start-info h1 span {
-  font-size: 7.6rem;
+  /* font-size: 7.6rem; */
+  font-size: 80px;
   color: var(--mustard);
   font-weight: 500;
 }
@@ -1331,6 +1349,9 @@ div#google_translate_element {
   z-index: 999999;
   right: 5px;
   bottom: 15px;
+}
+.mobo-comp {
+  display: none;
 }
 
 /************* MAX MEDIA QUERIES *************/
@@ -2265,6 +2286,48 @@ div#google_translate_element {
   .rounded-boxes .rounded-box-info {
     width: 90%;
   }
+  .col.col-2 {
+    display: none;
+  }
+  .col.col-3 {
+    display: none;
+  }
+  .col.col-1 {
+    width: 100%;
+  }
+  ul.feature-list li {
+    flex-wrap: wrap;
+  }
+  .mobo-comp {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-left: 35px;
+    margin-top: 15px;
+  }
+
+  span.pill {
+    display: flex;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border-radius: 50px;
+  }
+
+  span.dr-clear.pill {
+    background-color: #003a70;
+    color: #fff;
+  }
+  span.others.pill {
+    background-color: #fff;
+    color: #003a70;
+  }
+
+  span.pill img {
+    width: 15px;
+  }
 }
 @media screen and (max-width: 600px) {
   .rounded-box .rounded-box-num p {
@@ -2433,6 +2496,15 @@ div#google_translate_element {
   .banner .container .banner-info ul li {
     font-size: 16px;
   }
+  .cost-wrapper {
+    flex-direction: column;
+  }
+  p.cost-txt {
+    text-align: center;
+  }
+  p.comp-txt {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 540px) {
   .why-choose-us-info
@@ -2564,6 +2636,34 @@ div#google_translate_element {
   .special-offer-sec .special-offer-info .list ul {
     width: 100%;
     padding-left: 10px;
+  }
+  ul.feature-list li p {
+    width: 250px;
+    font-size: 16px;
+  }
+  p.comp-txt {
+    font-size: 16px;
+  }
+  .cost .text h4 {
+    font-size: 22px;
+  }
+  .cost .text p {
+    font-size: 14px;
+  }
+  .cost-cta a {
+    font-size: 22px;
+  }
+  details {
+    font-size: 22px;
+  }
+  details[open] div {
+    font-size: 16px;
+  }
+  section.comparison-sec {
+    padding: 40px 0;
+  }
+  .sec-faq {
+    padding: 40px 0;
   }
 }
 @media screen and (max-width: 375px) {
