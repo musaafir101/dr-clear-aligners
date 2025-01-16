@@ -309,6 +309,28 @@ details[open] div {
   padding-left: 10px;
 }
 
+.banner .container .banner-img.right-img {
+  text-align: right;
+}
+
+.banner .container .banner-img.right-img img {
+  max-width: 550px;
+  margin-right: -70px;
+}
+
+.banner .container.img-bottom {
+  align-items: flex-end;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 /* =========== COST SECTION STYLING ========== */
 
 .btn-primary {
@@ -1820,6 +1842,10 @@ div#google_translate_element {
     line-height: 3.6rem;
     padding-bottom: 20px;
   }
+  .banner .container .banner-img.right-img img {
+    max-width: 550px;
+    margin-right: 0px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .logos-imgs {
@@ -2505,6 +2531,9 @@ div#google_translate_element {
   p.comp-txt {
     width: 100%;
   }
+  .banner .container .banner-img.right-img {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 540px) {
   .why-choose-us-info
@@ -2558,6 +2587,9 @@ div#google_translate_element {
   }
   .rounded-boxes {
     gap: 10px;
+  }
+  .w-80 {
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
