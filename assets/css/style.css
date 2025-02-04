@@ -333,6 +333,20 @@ details[open] div {
 
 /* =========== COST SECTION STYLING ========== */
 
+/* =========== Australia Page STYLING ========== */
+
+.ft-num {
+  font-size: 40px;
+  color: var(--mustard);
+}
+
+.ft-stars {
+  font-size: 60px;
+  color: var(--mustard);
+}
+
+/* =========== Australia Page STYLING ========== */
+
 .btn-primary {
   font-size: 1.8rem;
   font-family: var(--arial);
